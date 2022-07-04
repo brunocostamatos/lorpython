@@ -30,4 +30,5 @@ class Bau:
                 self.usuario.minhasCartas.append(valueS)
 
     def __str__ (self):
+        print("")
         return "BAÚ PARA O USUÁRIO\t{}\n".format(self.usuario.nome) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nMinhas Cartas:\t{}\n".format(self.usuario.qntPo, self.usuario.qntCoringa, self.usuario.exp, self.usuario.minhasCartas)
