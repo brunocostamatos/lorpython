@@ -2,10 +2,11 @@ from usuario import Usuario
 from bau import Bau
 from menu import menu, menuRegiao, menuPartida
 from regiao import Regiao
+from partida import Partida
 import os
 
 
-""" FORMA ANTIGA 
+""" FORMA ANTIGA
 
 usuario1= Usuario("DrMonty", 1000, 3, 10, 50, [2,6])
 
@@ -41,12 +42,13 @@ while opcao != 0:
         bau1.tranformarSorteio()
         print(usuario1)
     elif opcao == 3:
-
+        partida1 = Partida(usuario1)
         menuPartida()
         opcaoPartida = int(input("\nEntre com sua opção: "))
         while opcaoPartida != 0:
             if opcaoPartida == 1:
-                print("GO")
+                partida1.escolherDificuldade()
+                partida1.jogo()
             menuPartida()
             opcaoPartida = int(input("\nEntre com sua opção: "))
     elif opcao == 4 :
@@ -59,9 +61,9 @@ while opcao != 0:
                 regiao1.listarRegioes()
                 regiao1.mudarRegiao()
             elif opcaoRegiao == 2:
-                regiao1.incrementarXPRegiao()      
+                regiao1.incrementarXPRegiao()
             elif opcaoRegiao == 3:
-                print("\nEM DESENVOLVIMENTO")   
+                print("\nEM DESENVOLVIMENTO")
             menuRegiao()
             opcaoRegiao = int(input("\nEntre com sua opção: "))
     elif opcao == 5 :
@@ -77,7 +79,3 @@ while opcao != 0:
     option = opcao = int(input("\nEntre com sua opção: "))
 
 os.system('cls||clear')
-
-
-
-
