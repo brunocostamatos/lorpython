@@ -3,10 +3,11 @@ import random
 class Bau:
     def __init__ (self, usuario):
         self.usuario = usuario
+        self.cartasSorteadas = []
     
     def sortearCartas(self, cartasSorteadas): #Precisa ser feito um sorteio que não repita a carta mais de 3 vezes
         sorteadas=[]
-        if self.usuario.exp % 10 == 0:
+        if self.usuario.exp >= 100 or self.usuario.expRegiao >= 100:
             print("Você tem experiência suficiente, vou sortear as cartas.")
             for i in range(5):
                 sorteadas.append(random.randint(1,8)) 
@@ -31,4 +32,4 @@ class Bau:
 
     def __str__ (self):
         print("")
-        return "BAÚ PARA O USUÁRIO\t{}\n".format(self.usuario.nome) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nMinhas Cartas:\t{}\n".format(self.usuario.qntPo, self.usuario.qntCoringa, self.usuario.exp, self.usuario.minhasCartas)
+        return "BAÚ PARA O USUÁRIO\t{}\n".format(self.usuario.nome) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nMinhas Cartas:\t{}\n".format(self.usuario.qntPo, self.usuario.qntCoringa, self.usuario.exp, self.usuario.nivel, self.usuario.minhasCartas)
