@@ -1,9 +1,11 @@
 from usuario import Usuario
 from bau import Bau
-from menu import menu, menuRegiao, menuPartida, menuForjaCarta
+from menu import menu, menuRegiao, menuPartida, menuForjaCarta, menuInventario
 from regiao import Regiao
 from partida import Partida
 from criacaoCarta import ForjaCarta
+from carta import Carta
+from baralho import Baralho
 
 import os
 
@@ -11,6 +13,8 @@ import os
 usuario1= Usuario("DrMonty", 1000, 3, 95, 1, "Demacia", 90, 1, [2,6])
 regiao1 = Regiao(usuario1, usuario1.regiao, usuario1.expRegiao, usuario1.nivelRegiao)
 forjaCarta = ForjaCarta(usuario1)
+inventarioCartas = Carta(usuario1)
+inventarioDecks = Baralho(usuario1)
 partida = Partida(usuario1)
 
 
@@ -60,6 +64,8 @@ while opcao != 0:
                 regiao1.incrementarXPRegiao()
             elif opcaoRegiao == 3:
                 regiao1.avancarNivelRegiao()
+            else:
+                print("\nOpção inválida.\n")
             menuRegiao()
             opcaoRegiao = int(input("\nEntre com sua opção: "))
     elif opcao == 5 :
@@ -71,12 +77,24 @@ while opcao != 0:
                 forjaCarta.criarCarta()
             elif opcaoForjaCarta == 2:
                 forjaCarta.desfazerCarta()
+            else:
+                print("\nOpção inválida.\n")
             menuForjaCarta()
             opcaoForjaCarta = int(input("\nEntre com sua opção: "))
     elif opcao == 6 :
         print("\nEM DESENVOLVIMENTO")
     elif opcao == 7 :
-        print("\nEM DESENVOLVIMENTO")
+        menuInventario()
+        opcaoInventario = int(input("\nEntre com sua opção: "))
+        while opcaoInventario != 0:
+            if opcaoInventario == 1:
+                inventarioCartas.verCartas()
+            elif opcaoInventario == 2:
+                inventarioDecks.verDecks()
+            else:
+                print("\nOpção inválida.\n")
+            menuInventario()
+            opcaoInventario = int(input("\nEntre com sua opção: "))
     else:
         print("\nOpção inválida.\n")
     print("")
@@ -84,3 +102,6 @@ while opcao != 0:
     option = opcao = int(input("\nEntre com sua opção: "))
 
 os.system('cls||clear')
+
+#NAO ESQUECER DE MELHORAR A FORMA QUE CHAMA CADA FUNÇÃO DENTRO DE CADA CLASSE
+#FAZER AS CORREÇÕES DE QUANDO O USUARIO ENTRA COM ALGO ERRADO NOS INPUTS
