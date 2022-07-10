@@ -16,6 +16,12 @@ def menuRegiao():
     print("3- Avançar Nível Região")
     print("0- Sair")
 
+def menuForjaCarta():
+    print("\nMenu Forja Carta:\n")
+    print("1- Criar Carta")
+    print("2- Desfazer Carta")
+    print("0- Sair")
+
 def menuPartida():
     print("Menu Partida:\n")
     print("1- Jogar")
