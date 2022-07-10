@@ -1,31 +1,19 @@
 from usuario import Usuario
 from bau import Bau
-from menu import menu, menuRegiao, menuPartida
+from menu import menu, menuRegiao, menuPartida, menuForjaCarta
 from regiao import Regiao
 from partida import Partida
+from criacaoCarta import ForjaCarta
+
 import os
 
 
-""" FORMA ANTIGA
+usuario1= Usuario("DrMonty", 1000, 3, 95, 1, "Demacia", 90, 1, [2,6])
+regiao1 = Regiao(usuario1, usuario1.regiao, usuario1.expRegiao, usuario1.nivelRegiao)
+forjaCarta = ForjaCarta(usuario1)
+partida = Partida(usuario1)
 
-usuario1= Usuario("DrMonty", 1000, 3, 10, 50, [2,6])
 
-print(usuario1)
-
-
-bau1 = Bau(usuario1)
-
-print(bau1)
-
-bau1.sortearCartas([])
-
-bau1.verificarSorteio()
-
-bau1.tranformarSorteio()
-
-print(bau1) """
-
-usuario1= Usuario("DrMonty", 1000, 3, 10, "Demacia", 50, [2,6])
 print("Trabalho de Comp 2 dos alunos Bruno Costa e Gustavo Camilo.")
 print(usuario1)
 menu()
@@ -42,17 +30,25 @@ while opcao != 0:
         bau1.tranformarSorteio()
         print(usuario1)
     elif opcao == 3:
-        partida1 = Partida(usuario1)
         menuPartida()
         opcaoPartida = int(input("\nEntre com sua opção: "))
         while opcaoPartida != 0:
             if opcaoPartida == 1:
-                partida1.escolherDificuldade()
-                partida1.jogo()
+                partida.escolherDificuldade()
+                partida.jogo()
+                partida.verificarVencedor()
+                if partida.vencedor == 1:
+                    partida.incrementarXPUsuario()
+                    regiao1.incrementarXPRegiao()
+                    if usuario1.exp >= 100:
+                        partida.avancarNivelUsuario()
+                    if regiao1.expRegiao >= 100:
+                        regiao1.avancarNivelRegiao()
+            else:
+                print("\nOpção inválida.\n")
             menuPartida()
             opcaoPartida = int(input("\nEntre com sua opção: "))
     elif opcao == 4 :
-        regiao1 = Regiao(usuario1, usuario1.regiao, usuario1.expRegiao)
         print(regiao1)
         menuRegiao()
         opcaoRegiao = int(input("\nEntre com sua opção: "))
@@ -63,11 +59,20 @@ while opcao != 0:
             elif opcaoRegiao == 2:
                 regiao1.incrementarXPRegiao()
             elif opcaoRegiao == 3:
-                print("\nEM DESENVOLVIMENTO")
+                regiao1.avancarNivelRegiao()
             menuRegiao()
             opcaoRegiao = int(input("\nEntre com sua opção: "))
     elif opcao == 5 :
-        print("\nEM DESENVOLVIMENTO")
+        print(forjaCarta)
+        menuForjaCarta()
+        opcaoForjaCarta = int(input("\nEntre com sua opção: "))
+        while opcaoForjaCarta != 0:
+            if opcaoForjaCarta == 1:
+                forjaCarta.criarCarta()
+            elif opcaoForjaCarta == 2:
+                forjaCarta.desfazerCarta()
+            menuForjaCarta()
+            opcaoForjaCarta = int(input("\nEntre com sua opção: "))
     elif opcao == 6 :
         print("\nEM DESENVOLVIMENTO")
     elif opcao == 7 :
