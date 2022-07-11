@@ -1,11 +1,11 @@
-
+from usuario import Usuario
 class ForjaCarta: 
 
-    def __init__ (self, usuario):
+    def __init__ (self, usuario, qntPo, qntCoringa, minhasCartas):
         self.usuario = usuario
-        self.qntPo = usuario.qntPo
-        self.qntCoringa = usuario.qntCoringa
-        self.minhasCartas = usuario.minhasCartas
+        self.qntPo =  Usuario.getQntPo(usuario)
+        self.qntCoringa = qntCoringa
+        self.minhasCartas = minhasCartas
 
     def listarNaoTenho(self):
         todasCartas = [1,2,3,4,5,6,7,8,9,10,13,15,20,26,89,58,100]
@@ -29,7 +29,7 @@ class ForjaCarta:
         ForjaCarta.listarNaoTenho(self)
         minhasCartasAntesCriacao = self.minhasCartas
         if metodo == 1:
-            moeda = self.qntPo
+            moeda = self.usuario.qntPo
             saldoPositivo = ForjaCarta.verificarSaldo(self, moeda, metodo)
             if saldoPositivo == True: 
                 print("\nCartas para fazer usando Pó\n")
@@ -41,12 +41,12 @@ class ForjaCarta:
                         print("A seguinte carta foi criada usando Pó: {}".format(cartaEscolhida))
                         self.minhasCartas.append(cartaEscolhida)
                         moeda -= 10
-                self.qntPo = moeda
                 self.usuario.qntPo = moeda
+                self.qntPo = self.usuario.qntPo
             else:
                 print("\nVocê não possui saldo para criar carta usando Pó")
         elif metodo == 2:
-            moeda = self.qntCoringa
+            moeda = self.usuario.qntCoringa
             saldoPositivo = ForjaCarta.verificarSaldo(self, moeda, metodo)
             if saldoPositivo == True: 
                 print("\nCartas para fazer usando Coringa\n")
@@ -58,8 +58,8 @@ class ForjaCarta:
                         print("A seguinte carta foi criada usando Coringa: {}".format(cartaEscolhida))
                         self.minhasCartas.append(cartaEscolhida)
                         moeda -= 1
-                self.qntCoringa = moeda
                 self.usuario.qntCoringa = moeda
+                self.qntCoringa = self.usuario.qntCoringa
             else:
                 print("\nVocê não possui saldo para criar carta usando Coringa")
         print(self)
@@ -85,4 +85,4 @@ class ForjaCarta:
 
     def __str__ (self):
         print("")
-        return "Pó de Carta:\t{}\nCoringa:\t{}\nMinhas Cartas:\t{}\n".format(self.qntPo, self.qntCoringa, self.minhasCartas)
+        return "Pó de Carta:\t{}\nCoringa:\t{}\nMinhas Cartas:\t{}\n".format(self.usuario.qntPo, self.usuario.qntCoringa, self.usuario.minhasCartas)

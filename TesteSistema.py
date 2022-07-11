@@ -12,7 +12,7 @@ import os
 
 usuario1= Usuario("DrMonty", 1000, 3, 95, 1, "Demacia", 90, 1, [2,6])
 regiao1 = Regiao(usuario1, usuario1.regiao, usuario1.expRegiao, usuario1.nivelRegiao)
-forjaCarta = ForjaCarta(usuario1)
+forjaCarta = ForjaCarta(usuario1, usuario1.qntPo, usuario1.qntCoringa, usuario1.minhasCartas)
 inventarioCartas = Carta(usuario1)
 inventarioDecks = Baralho(usuario1)
 partida = Partida(usuario1)
