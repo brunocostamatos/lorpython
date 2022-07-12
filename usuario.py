@@ -1,4 +1,4 @@
-class Usuario: 
+class Usuario:
 
     def __init__ (self, nome, qntPo, qntCoringa, exp, nivel, regiao, expRegiao, nivelRegiao, minhasCartas):
         self.nome = nome
@@ -10,7 +10,7 @@ class Usuario:
         self.expRegiao = expRegiao
         self.nivelRegiao = nivelRegiao
         self.minhasCartas = minhasCartas
-            
+
 
     def __str__ (self):
         print("")
@@ -19,6 +19,9 @@ class Usuario:
 
     def setQntPo(self, qntPo):
         self.qntPo = qntPo
+
+    def setQntCoringa(self, qntCoringa):
+        self.qntCoringa = qntCoringa
 
     def getQntPo(self):
         return self.qntPo
