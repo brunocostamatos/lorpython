@@ -1,11 +1,12 @@
 from usuario import Usuario
 from bau import Bau
-from menu import menu, menuRegiao, menuPartida, menuForjaCarta, menuInventario
+from menu import menu, menuRegiao, menuPartida, menuForjaCarta, menuInventario, menuPersistencia
 from regiao import Regiao
 from partida import Partida
 from criacaoCarta import ForjaCarta
 from carta import Carta
 from baralho import Baralho
+from persistencia import Persistencia
 
 import os
 
@@ -16,6 +17,7 @@ forjaCarta = ForjaCarta(usuario1, usuario1.qntPo, usuario1.qntCoringa, usuario1.
 inventarioCartas = Carta(usuario1)
 inventarioDecks = Baralho(usuario1)
 partida = Partida(usuario1)
+persistencia = Persistencia(usuario1.nome, usuario1.qntPo, usuario1.qntCoringa, usuario1.exp, usuario1.nivel, usuario1.regiao, usuario1.expRegiao, usuario1.nivelRegiao, usuario1.minhasCartas)
 
 
 print("Trabalho de Comp 2 dos alunos Bruno Costa e Gustavo Camilo.")
@@ -95,6 +97,18 @@ while opcao != 0:
                 print("\nOpção inválida.\n")
             menuInventario()
             opcaoInventario = int(input("\nEntre com sua opção: "))
+    elif opcao == 8:
+        menuPersistencia()
+        opcaoPersistencia = int(input("\nEntre com sua opção: "))
+        while opcaoPersistencia != 0:
+            if opcaoPersistencia == 1:
+                persistencia.ler()
+            elif opcaoPersistencia == 2:
+                persistencia.salvar(usuario1.nome, usuario1.qntPo, usuario1.qntCoringa, usuario1.exp, usuario1.nivel, usuario1.regiao, usuario1.expRegiao, usuario1.nivelRegiao, usuario1.minhasCartas)
+            else:
+                print("\nOpção inválida.\n")
+            menuPersistencia()
+            opcaoPersistencia = int(input("\nEntre com sua opção: "))
     else:
         print("\nOpção inválida.\n")
     print("")
