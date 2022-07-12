@@ -6,7 +6,7 @@ class Regiao:
         self.regiao = regiao
         self.expRegiao = expRegiao
         self.nivelRegiao = nivelRegiao
-    
+
     def listarRegioes(self): #precisa rever para quando a experiencia da atrelada a regiao e nao vai ser zerada sempre q mudar
         listaRegioes=['Aguas de Sentina', 'Bandópolis', 'Demacia', 'Freljord', 'Ilha das Sombras', 'Ionia', 'Noxus', 'Piltover e Zaun', 'Shurima', 'Targon']
         print("\nLista de Regiões: \n")
@@ -28,8 +28,10 @@ class Regiao:
                         print("Mudança realizada com sucesso.")
                         self.usuario.regiao = value
                         self.usuario.expRegiao = 0
+                        self.usuario.nivelRegiao = 1
                         self.regiao = value
                         self.expRegiao = 0
+                        self.nivelRegiao = 1
                     else:
                         print("A sua atual Região já é", self.usuario.regiao,", mudança não realizada.")
         print(self)
@@ -50,7 +52,7 @@ class Regiao:
         self.usuario.expRegiao = 0
         self.usuario.nivelRegiao += 1
         print("\nBAÚ PARA O USUÁRIO\t{}\n".format(self.usuario.nome) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nMinhas Cartas:\t{}\n".format(self.usuario.qntPo, self.usuario.qntCoringa, self.usuario.exp, self.usuario.nivel, self.usuario.minhasCartas))
-    
+
 
     def __str__ (self):
         print("")
