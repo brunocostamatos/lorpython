@@ -23,5 +23,36 @@ class Usuario:
     def setQntCoringa(self, qntCoringa):
         self.qntCoringa = qntCoringa
 
-    def getQntPo(self):
+    def setMinhasCartas(self, minhasCartas):
+        self.minhasCartas = minhasCartas
+    
+    def getNome(self):
+        return self.nome
+
+    def getQntPo(self): 
         return self.qntPo
+    
+    def getQntCoringa(self):
+        return self.qntCoringa
+    
+    def getExp(self):
+        return self.exp
+    
+    def getNivel(self):
+        return self.nivel
+    
+    def getRegiao(self):
+        return self.regiao
+    
+    def getExpRegiao(self):
+        return self.expRegiao
+    
+    def getNivelRegiao(self):
+        return self.nivelRegiao
+    
+    def getMinhasCartas(self):
+        return self.minhasCartas
+    
+    def getMeusDecks(self):
+        return self.regiao
+    

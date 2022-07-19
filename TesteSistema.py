@@ -12,8 +12,9 @@ import os
 
 
 usuario1= Usuario("DrMonty", 1000, 3, 95, 1, "Demacia", 90, 1, [2,6])
+bau1 = Bau(usuario1)
 regiao1 = Regiao(usuario1, usuario1.regiao, usuario1.expRegiao, usuario1.nivelRegiao)
-forjaCarta = ForjaCarta(usuario1, usuario1.qntPo, usuario1.qntCoringa, usuario1.minhasCartas)
+forjaCarta = ForjaCarta(usuario1)
 inventarioCartas = Carta(usuario1)
 inventarioDecks = Baralho(usuario1)
 partida = Partida(usuario1)
@@ -29,11 +30,12 @@ while opcao != 0:
     if opcao == 1:
         print(usuario1)
     elif opcao == 2:
-        bau1 = Bau(usuario1)
+        
         print(bau1)
         bau1.sortearCartas([])
         bau1.verificarSorteio()
         bau1.tranformarSorteio()
+        #bau1.teste(usuario1)
         print(usuario1)
     elif opcao == 3:
         menuPartida()
