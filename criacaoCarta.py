@@ -43,8 +43,8 @@ class ForjaCarta:
                         print("A seguinte carta foi criada usando Pó: {}".format(cartaEscolhida))
                         self.minhasCartas.append(cartaEscolhida)
                         moeda -= 10
-                self.usuario.qntPo = moeda
-                self.qntPo = self.usuario.qntPo
+                Usuario.setMinhasCartas(self.usuario, self.minhasCartas)
+                Usuario.setQntPo(self.usuario, moeda)
                 persistencia = Persistencia(self.usuario)
                 persistencia.salvar()
             else:
@@ -62,8 +62,8 @@ class ForjaCarta:
                         print("A seguinte carta foi criada usando Coringa: {}".format(cartaEscolhida))
                         self.minhasCartas.append(cartaEscolhida)
                         moeda -= 1
-                self.usuario.qntCoringa = moeda
-                self.qntCoringa = self.usuario.qntCoringa
+                Usuario.setMinhasCartas(self.usuario, self.minhasCartas)
+                Usuario.setQntCoringa(self.usuario, moeda)
                 persistencia = Persistencia(self.usuario)
                 persistencia.salvar()
             else:
@@ -84,13 +84,12 @@ class ForjaCarta:
         else:
             print("\nCarta {}".format(cartaSelecionada)+" desfeita com sucesso")
             self.qntPo += 5 
-            self.usuario.qntPo += 5
-            self.minhasCartas = cartasSobreviventes
-            self.usuario.minhasCartas = cartasSobreviventes
+            Usuario.setQntPo(self.usuario, self.qntPo)
+            Usuario.setMinhasCartas(self.usuario, cartasSobreviventes)
             persistencia = Persistencia(self.usuario)
             persistencia.salvar()
         print(self)
 
     def __str__ (self): #precisa inserir os sets
         print("")
-        return "Pó de Carta:\t{}\nCoringa:\t{}\nMinhas Cartas:\t{}\n".format(self.usuario.qntPo, self.qntCoringa, self.minhasCartas)
+        return "Pó de Carta:\t{}\nCoringa:\t{}\nMinhas Cartas:\t{}\n".format(Usuario.getQntPo(self.usuario), Usuario.getQntCoringa(self.usuario), Usuario.getMinhasCartas(self.usuario))

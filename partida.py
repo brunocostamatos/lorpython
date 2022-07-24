@@ -59,26 +59,35 @@ class Partida:
     def incrementarXPUsuario(self): #INSERIR SET EXP USUARIO
         if self.vencedor == 1:
             if self.dificuldade == 1:
-                self.usuario.exp +=  5
-                print("\nExperiência da conta:\t{}".format(self.usuario.exp))
+                self.exp += 5
+                #self.usuario.exp +=  5
+                Usuario.setExp(self.usuario, self.exp)
+                print("\nExperiência da conta:\t{}".format(Usuario.getExp(self.usuario)))
             elif self.dificuldade == 2:
-                self.usuario.exp += 25
-                print("\nExperiência da conta:\t{}".format(self.usuario.exp))
+                self.exp += 25
+                #self.usuario.exp +=  25
+                Usuario.setExp(self.usuario, self.exp)
+                print("\nExperiência da conta:\t{}".format(Usuario.getExp(self.usuario)))
             elif self.dificuldade == 3:
-                self.usuario.exp += 75
-                print("\nExperiência da conta:\t{}".format(self.usuario.exp))
+                self.exp += 75
+                #self.usuario.exp +=  75
+                Usuario.setExp(self.usuario, self.exp)
+                print("\nExperiência da conta:\t{}".format(Usuario.getExp(self.usuario)))
             persistencia = Persistencia(self.usuario)
             persistencia.salvar()
 
-    def avancarNivelUsuario(self):      #INSERIR SET EXP USUARIO E NIVEL DE USUARIO  
+    def avancarNivelUsuario(self): 
         recompensa = Bau(self.usuario)
         print(recompensa)
         recompensa.sortearCartas([])
         recompensa.verificarSorteio()
         recompensa.tranformarSorteio()
-        self.usuario.exp = 0
-        self.usuario.nivel += 1
-        print("\nBAÚ PARA O USUÁRIO\t{}\n".format(self.nome) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nMinhas Cartas:\t{}\n".format(self.qntPo, self.qntCoringa, self.exp, self.nivel, self.minhasCartas))
+        #self.usuario.exp = 0
+        Usuario.setExp(self.usuario, 0)
+        #self.usuario.nivel += 1
+        self.nivel += 1
+        Usuario.setNivel(self.usuario, self.nivel)
+        print("\nBAÚ PARA O USUÁRIO\t{}\n".format(Usuario.getNome(self.usuario)) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nMinhas Cartas:\t{}\n".format(Usuario.getQntPo(self.usuario), Usuario.getQntCoringa(self.usuario), Usuario.getExp(self.usuario), Usuario.getNivel(self.usuario), Usuario.getMinhasCartas(self.usuario)))
         persistencia = Persistencia(self.usuario)
         persistencia.salvar()
         

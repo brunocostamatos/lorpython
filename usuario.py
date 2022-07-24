@@ -25,6 +25,21 @@ class Usuario:
     def setQntCoringa(self, qntCoringa):
         self.qntCoringa = qntCoringa
 
+    def setExp(self, exp):
+        self.exp = exp
+    
+    def setNivel(self, nivel):
+        self.nivel = nivel
+
+    def setRegiao(self, regiao):
+        self.regiao = regiao
+    
+    def  setExpRegiao(self, expRegiao):
+        self.expRegiao = expRegiao
+
+    def setNivelRegiao(self, nivelRegiao):
+        self.nivelRegiao = nivelRegiao
+    
     def setMinhasCartas(self, minhasCartas):
         self.minhasCartas = minhasCartas
     
