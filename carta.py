@@ -1,8 +1,10 @@
+from usuario import Usuario
+
 class Carta: 
 
     def __init__ (self, usuario):
-        self.nome = usuario.nome
-        self.minhasCartas = usuario.minhasCartas            
+        self.nome = Usuario.getNome(usuario)
+        self.minhasCartas = Usuario.getMinhasCartas(usuario)            
 
     def verCartas(self):
         print("")
