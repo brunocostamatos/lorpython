@@ -8,6 +8,7 @@ class Regiao:
         self.regiao = Usuario.getRegiao(usuario)
         self.expRegiao = Usuario.getExpRegiao(usuario)
         self.nivelRegiao = Usuario.getNivelRegiao(usuario)
+        self.qntCoringa = Usuario.getQntCoringa(usuario)
 
     def listarRegioes(self):
         listaRegioes=['Aguas de Sentina', 'Bandópolis', 'Demacia', 'Freljord', 'Ilha das Sombras', 'Ionia', 'Noxus', 'Piltover e Zaun', 'Shurima', 'Targon']
@@ -61,6 +62,9 @@ class Regiao:
         Usuario.setExpRegiao(self.usuario, 0)
         self.nivelRegiao += 1
         Usuario.setNivelRegiao(self.usuario, self.nivelRegiao)
+        self.qntCoringa += 1
+        Usuario.setQntCoringa(self.usuario, self.qntCoringa)
+        print("\nUsuário {}".format(Usuario.getNome(self.usuario)) + " ganhou mais 1 coringa por aumentar o nível da Região: " + format(Usuario.getRegiao(self.usuario)))
         #self.usuario.expRegiao = 0
         #self.usuario.nivelRegiao += 1
         print("\nBAÚ PARA O USUÁRIO\t{}\n".format(Usuario.getNome(self.usuario)) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nMinhas Cartas:\t{}\n".format(Usuario.getQntPo(self.usuario),Usuario.getQntCoringa(self.usuario), Usuario.getExp(self.usuario), Usuario.getNivel(self.usuario), Usuario.getMinhasCartas(self.usuario)))
