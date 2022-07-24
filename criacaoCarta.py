@@ -1,4 +1,5 @@
 from usuario import Usuario
+from persistencia import Persistencia
 
 class ForjaCarta: 
 
@@ -44,6 +45,8 @@ class ForjaCarta:
                         moeda -= 10
                 self.usuario.qntPo = moeda
                 self.qntPo = self.usuario.qntPo
+                persistencia = Persistencia(self.usuario)
+                persistencia.salvar()
             else:
                 print("\nVocê não possui saldo para criar carta usando Pó")
         elif metodo == 2:
@@ -61,6 +64,8 @@ class ForjaCarta:
                         moeda -= 1
                 self.usuario.qntCoringa = moeda
                 self.qntCoringa = self.usuario.qntCoringa
+                persistencia = Persistencia(self.usuario)
+                persistencia.salvar()
             else:
                 print("\nVocê não possui saldo para criar carta usando Coringa")
         print(self)
@@ -75,15 +80,17 @@ class ForjaCarta:
             if cartaSelecionada != valueDC:
                 cartasSobreviventes.append(valueDC)
         if cartasSobreviventes == self.minhasCartas:
-            print("Não é possível desfazer a carta selecionada")
+            print("Inserção inválida.")
         else:
             print("\nCarta {}".format(cartaSelecionada)+" desfeita com sucesso")
             self.qntPo += 5 
             self.usuario.qntPo += 5
             self.minhasCartas = cartasSobreviventes
             self.usuario.minhasCartas = cartasSobreviventes
+            persistencia = Persistencia(self.usuario)
+            persistencia.salvar()
         print(self)
 
-    def __str__ (self):
+    def __str__ (self): #precisa inserir os sets
         print("")
-        return "Pó de Carta:\t{}\nCoringa:\t{}\nMinhas Cartas:\t{}\n".format(self.qntPo, self.qntCoringa, self.minhasCartas)
+        return "Pó de Carta:\t{}\nCoringa:\t{}\nMinhas Cartas:\t{}\n".format(self.usuario.qntPo, self.qntCoringa, self.minhasCartas)
