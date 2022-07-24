@@ -1,5 +1,6 @@
 import random
 from usuario import Usuario
+from persistencia import Persistencia
 
 class Bau:
     def __init__ (self, usuario):
@@ -13,30 +14,36 @@ class Bau:
         self.minhasCartas = Usuario.getMinhasCartas(usuario)
         self.cartasSorteadas = []
     
-    def sortearCartas(self, cartasSorteadas): #Precisa ser feito um sorteio que não repita a carta mais de 3 vezes
+    def sortearCartas(self, cartasSorteadas): #https://itecnote.com/tecnote/python-how-to-generate-unique-random-numbers-that-dont-repeat/ aqui tem o link de pq meti o shuffle
         sorteadas=[]
         if self.exp >= 100 or self.expRegiao >= 100:
             print("Você tem experiência suficiente, vou sortear as cartas.")
+            l = list(range(1, 8))
+            random.shuffle(l)
             for i in range(5):
-                sorteadas.append(random.randint(1,8)) 
+                sorteadas.append(l.pop()) 
             print(sorteadas)
             self.cartasSorteadas = sorteadas
+            
         else:
             print("Você não têm experiência suficiente.")
 
-    def verificarSorteio(self): #Falta fazer a verificacao de se tenho a quantidade de cartas máximas, que é 3 por carta.
+    def verificarSorteio(self):
         for indexS, valueS in enumerate(self.cartasSorteadas):
             for indexM,valueM in enumerate(self.minhasCartas):
                 if valueS == valueM:
                     print("Já possuo essa carta {}".format(valueS))
                     self.cartasSorteadas[indexS] = "P" 
 
-    def tranformarSorteio(self): # quebro a função para transformarCoringa, transformarPo e transformar em minha carta?
+    def tranformarSorteio(self):
         for indexS, valueS in enumerate(self.cartasSorteadas):
             if valueS == "P":
                 self.qntPo += 10
+                self.usuario.qntPo += 10 #precisa inserir o set usuario qntpo
             else:
                 self.minhasCartas.append(valueS)
+        persistencia = Persistencia(self.usuario)
+        persistencia.salvar()
         #Usuario.setQntPo(self, self.qntPo)        
         #Usuario.setMinhasCartas(self, self.minhasCartas)
         
