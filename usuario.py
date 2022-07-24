@@ -16,6 +16,8 @@ class Usuario:
         print("")
         return "Usuário:\t{}\nPó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nRegião:\t{}\nNível Região:\t{}\nMinhas Cartas:\t{}\n".format(self.nome, self.qntPo, self.qntCoringa, self.exp, self.nivel, self.regiao, self.nivelRegiao, self.minhasCartas)
 
+    def setNomeUsuario(self, nome):
+        self.nome = nome
 
     def setQntPo(self, qntPo):
         self.qntPo = qntPo
