@@ -1,5 +1,6 @@
 import os.path
 import ast
+import json
 from usuario import Usuario
 
 class Persistencia:
@@ -72,6 +73,13 @@ class Persistencia:
         #self.usuario.meusDecks = convertendoLista
         Usuario.setMeusDecks(self.usuario, ast.literal_eval(teste[9]))
     
+    def getCartasJson(): #metodo para pegar todas as cartas do cartas.json
+        cartasJson = open("cartas.json")
+        cartas = json.load(cartasJson)
+        cartasJson.close()
+        return cartas
+
+
     def __str__ (self):
         print("")
         return "Salvando\n"

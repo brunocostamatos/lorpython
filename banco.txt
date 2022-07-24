@@ -1,9 +1,9 @@
 Usuario Teste
+17730
 0
-0
-0
-1
+100
+3
 Demacia
-0
+50
 1
-[]
+['Espreitador Eternebroso', 'Bomba Saltitante', 'Pedinte Zaunita', 'Ataque Ressonante', 'Viktor', 'Fundição de Núcleos Hex', 'Diana', 'Te peguei!', 'Tá Avisado', 'Rastro Suspeito', 'Colosso Liberto', 'Tempestade de Lâminas', 'Elnuk Voluntário', 'Disciplinas Gêmeas', 'Jhin', 'Bardo', 'Sino']
