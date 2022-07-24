@@ -1,11 +1,13 @@
 from bau import Bau
+from usuario import Usuario
+from persistencia import Persistencia
 
 class Regiao:
-    def __init__ (self, usuario, regiao, expRegiao, nivelRegiao):
+    def __init__ (self, usuario):
         self.usuario = usuario
-        self.regiao = regiao
-        self.expRegiao = expRegiao
-        self.nivelRegiao = nivelRegiao
+        self.regiao = Usuario.getRegiao(usuario)
+        self.expRegiao = Usuario.getExpRegiao(usuario)
+        self.nivelRegiao = Usuario.getNivelRegiao(usuario)
 
     def listarRegioes(self): #precisa rever para quando a experiencia da atrelada a regiao e nao vai ser zerada sempre q mudar
         listaRegioes=['Aguas de Sentina', 'Bandópolis', 'Demacia', 'Freljord', 'Ilha das Sombras', 'Ionia', 'Noxus', 'Piltover e Zaun', 'Shurima', 'Targon']
@@ -34,12 +36,16 @@ class Regiao:
                         self.nivelRegiao = 1
                     else:
                         print("A sua atual Região já é", self.usuario.regiao,", mudança não realizada.")
+            persistencia = Persistencia(self.usuario)
+            persistencia.salvar()
         print(self)
 
     def incrementarXPRegiao(self): #precisa rever para corrigir com o get e set expRegiao
         self.expRegiao += 10
         self.usuario.expRegiao += 10
         print("\nExperiência da Região {}".format(self.regiao) + ": {}".format(self.expRegiao) + "\n")
+        persistencia = Persistencia(self.usuario)
+        persistencia.salvar()
 
     def avancarNivelRegiao(self):  #precisa ver com o get e set expRegiao e nivelRegiao
         recompensa = Bau(self.usuario)
@@ -52,7 +58,8 @@ class Regiao:
         self.usuario.expRegiao = 0
         self.usuario.nivelRegiao += 1
         print("\nBAÚ PARA O USUÁRIO\t{}\n".format(self.usuario.nome) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nMinhas Cartas:\t{}\n".format(self.usuario.qntPo, self.usuario.qntCoringa, self.usuario.exp, self.usuario.nivel, self.usuario.minhasCartas))
-
+        persistencia = Persistencia(self.usuario)
+        persistencia.salvar()
 
     def __str__ (self):
         print("")
