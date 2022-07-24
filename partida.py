@@ -1,11 +1,18 @@
 import random
 from bau import Bau
+from usuario import Usuario
+from persistencia import Persistencia
 
 class Partida:
     def __init__ (self, usuario):
         self.usuario = usuario
+        self.nome =  Usuario.getNome(usuario)
+        self.qntPo = Usuario.getQntPo(usuario)
+        self.qntCoringa = Usuario.getQntCoringa(usuario)
+        self.exp = Usuario.getExp(usuario)
+        self.nivel = Usuario.getNivel(usuario)
+        self.minhasCartas = Usuario.getMinhasCartas(usuario)
     
-
     def selecionarDeck(self):
         print("EM DESENVOLVIMENTO")
 
@@ -49,7 +56,7 @@ class Partida:
                 print("\nVocê perdeu :(")
                 self.vencedor = 0
 
-    def incrementarXPUsuario(self):
+    def incrementarXPUsuario(self): #INSERIR SET EXP USUARIO
         if self.vencedor == 1:
             if self.dificuldade == 1:
                 self.usuario.exp +=  5
@@ -60,8 +67,10 @@ class Partida:
             elif self.dificuldade == 3:
                 self.usuario.exp += 75
                 print("\nExperiência da conta:\t{}".format(self.usuario.exp))
+            persistencia = Persistencia(self.usuario)
+            persistencia.salvar()
 
-    def avancarNivelUsuario(self):        
+    def avancarNivelUsuario(self):      #INSERIR SET EXP USUARIO E NIVEL DE USUARIO  
         recompensa = Bau(self.usuario)
         print(recompensa)
         recompensa.sortearCartas([])
@@ -69,8 +78,10 @@ class Partida:
         recompensa.tranformarSorteio()
         self.usuario.exp = 0
         self.usuario.nivel += 1
-        print("\nBAÚ PARA O USUÁRIO\t{}\n".format(self.usuario.nome) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nMinhas Cartas:\t{}\n".format(self.usuario.qntPo, self.usuario.qntCoringa, self.usuario.exp, self.usuario.nivel, self.usuario.minhasCartas))
-    
+        print("\nBAÚ PARA O USUÁRIO\t{}\n".format(self.nome) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nMinhas Cartas:\t{}\n".format(self.qntPo, self.qntCoringa, self.exp, self.nivel, self.minhasCartas))
+        persistencia = Persistencia(self.usuario)
+        persistencia.salvar()
+        
     def __str__ (self):
         print("")
-        return "REGIÃO ATUAL DO USUÁRIO\t{}\n".format(self.usuario.nome) + "Região:\t{}\nExperiência da Região:\t{}\n".format(self.regiao, self.expRegiao)
+        return "Partida do jogo Legends of Runeterra"
