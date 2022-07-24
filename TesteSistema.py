@@ -1,20 +1,20 @@
-from menu import menu, menuRegiao, menuPartida, menuForjaCarta, menuInventario, menuPersistencia
+from menu import menu, menuRegiao, menuPartida, menuForjaCarta, menuForjaDeck, menuInventario, menuPersistencia
 from usuario import Usuario
 from bau import Bau
 from regiao import Regiao
 from partida import Partida
 from criacaoCarta import ForjaCarta
+from criacaoBaralho import ForjaDeck
 from carta import Carta
 from baralho import Baralho
 from persistencia import Persistencia
 
 import os
 
-
 existenciaArquivo = Persistencia.verificarExistencia()
 
 
-usuario1= Usuario("Usuario Não Identificado", 0, 0, 0, 1, "Demacia", 0, 1, [])
+usuario1= Usuario("Usuario Não Identificado", 0, 0, 0, 1, "Demacia", 0, 1, [],[])
 
 persistencia = Persistencia(usuario1)
 
@@ -31,6 +31,7 @@ else:
 bau1 = Bau(usuario1)
 regiao1 = Regiao(usuario1)
 forjaCarta = ForjaCarta(usuario1)
+forjaDeck = ForjaDeck(usuario1)
 inventarioCartas = Carta(usuario1)
 inventarioDecks = Baralho(usuario1)
 partida = Partida(usuario1)
@@ -38,7 +39,6 @@ persistencia = Persistencia(usuario1)
 
 
 controleError = 0
-
 
 while controleError != 1:
     try:
@@ -104,7 +104,17 @@ while controleError != 1:
                     menuForjaCarta()
                     opcaoForjaCarta = int(input("\nEntre com sua opção: "))
             elif opcao == 6 :
-                print("\nEM DESENVOLVIMENTO")
+                menuForjaDeck()
+                opcaoForjaDeck = int(input("\nEntre com sua opção: "))
+                while opcaoForjaDeck != 0:
+                    if opcaoForjaDeck == 1:
+                        forjaDeck.criarBaralho()
+                    elif opcaoForjaDeck == 2:
+                        forjaCarta.desfazerCarta()
+                    else:
+                        print("\nOpção inválida.\n")
+                    menuForjaDeck()
+                    opcaoForjaDeck = int(input("\nEntre com sua opção: "))
             elif opcao == 7 :
                 menuInventario()
                 opcaoInventario = int(input("\nEntre com sua opção: "))

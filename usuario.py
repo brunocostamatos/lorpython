@@ -1,6 +1,6 @@
 class Usuario:
 
-    def __init__ (self, nome, qntPo, qntCoringa, exp, nivel, regiao, expRegiao, nivelRegiao, minhasCartas):
+    def __init__ (self, nome, qntPo, qntCoringa, exp, nivel, regiao, expRegiao, nivelRegiao, minhasCartas, meusDecks):
         self.nome = nome
         self.qntPo= qntPo
         self.qntCoringa = qntCoringa
@@ -10,6 +10,7 @@ class Usuario:
         self.expRegiao = expRegiao
         self.nivelRegiao = nivelRegiao
         self.minhasCartas = minhasCartas
+        self.meusDecks = meusDecks
 
 
     def __str__ (self):
@@ -42,6 +43,9 @@ class Usuario:
     
     def setMinhasCartas(self, minhasCartas):
         self.minhasCartas = minhasCartas
+
+    def setMeusDecks(self, meusDecks):
+        self.meusDecks = meusDecks
     
     def getNome(self):
         return self.nome
@@ -71,5 +75,5 @@ class Usuario:
         return self.minhasCartas
     
     def getMeusDecks(self):
-        return self.regiao
+        return self.meusDecks
     

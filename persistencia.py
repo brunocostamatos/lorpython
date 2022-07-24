@@ -14,6 +14,7 @@ class Persistencia:
         self.expRegiao = str(Usuario.getExpRegiao(usuario))
         self.nivelRegiao = str(Usuario.getNivelRegiao(usuario))
         self.minhasCartas = str(Usuario.getMinhasCartas(usuario))
+        self.meusDecks = str(Usuario.getMeusDecks(usuario))
 
 
 
@@ -35,7 +36,8 @@ class Persistencia:
         f.write(self.regiao+"\n")
         f.write(self.expRegiao+"\n")
         f.write(self.nivelRegiao+"\n")
-        f.write(self.minhasCartas)
+        f.write(self.minhasCartas+"\n")
+        f.write(self.meusDecks)
         f.close()
         print(self)
 
@@ -67,6 +69,8 @@ class Persistencia:
         Usuario.setNivelRegiao(self.usuario, int(teste[7]))
         #self.usuario.minhasCartas = convertendoLista
         Usuario.setMinhasCartas(self.usuario, ast.literal_eval(teste[8]))
+        #self.usuario.meusDecks = convertendoLista
+        Usuario.setMeusDecks(self.usuario, ast.literal_eval(teste[9]))
     
     def __str__ (self):
         print("")

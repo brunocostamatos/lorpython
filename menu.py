@@ -23,6 +23,12 @@ def menuForjaCarta():
     print("2- Desfazer Carta")
     print("0- Sair")
 
+def menuForjaDeck():
+    print("\nMenu Forja Deck:\n")
+    print("1- Criar Deck")
+    print("2- Apagar Deck")
+    print("0- Sair")
+
 def menuInventario():
     print("1- Minhas Cartas")
     print("2- Meus Decks")
