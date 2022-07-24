@@ -16,12 +16,15 @@ class Bau:
     
     def sortearCartas(self, cartasSorteadas): #https://itecnote.com/tecnote/python-how-to-generate-unique-random-numbers-that-dont-repeat/ aqui tem o link de pq meti o shuffle
         sorteadas=[]
+        leituraArquivoCartas = []
         if self.exp >= 100 or self.expRegiao >= 100:
             print("Você tem experiência suficiente, vou sortear as cartas.")
-            l = list(range(1, 8))
-            random.shuffle(l)
+            cartasJson = Persistencia.getCartasJson()
+            for i in cartasJson:
+                leituraArquivoCartas.append(cartasJson[i]['name'])
+            random.shuffle(leituraArquivoCartas)
             for i in range(5):
-                sorteadas.append(l.pop()) 
+                sorteadas.append(leituraArquivoCartas.pop())
             print(sorteadas)
             self.cartasSorteadas = sorteadas
             

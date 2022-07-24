@@ -10,7 +10,10 @@ class ForjaCarta:
         self.minhasCartas = Usuario.getMinhasCartas(usuario)
 
     def listarNaoTenho(self):
-        todasCartas = [1,2,3,4,5,6,7,8,9,10,13,15,20,26,89,58,100]
+        todasCartas = []
+        cartasJson = Persistencia.getCartasJson()
+        for i in cartasJson:
+            todasCartas.append(cartasJson[i]['name'])
         tenhoCartas = self.minhasCartas
         naoTenhoCartas = [item for item in todasCartas if item not in tenhoCartas]
         self.naoTenhoCartas= naoTenhoCartas
@@ -35,13 +38,13 @@ class ForjaCarta:
             saldoPositivo = ForjaCarta.verificarSaldo(self, moeda, metodo)
             if saldoPositivo == True: 
                 print("\nCartas para fazer usando Pó\n")
-                for indexP, valueP in enumerate(self.naoTenhoCartas):
-                    print(valueP)
+                for index, value in enumerate(self.naoTenhoCartas):
+                    print((index + 1), "->", value)
                 cartaEscolhida = int(input("\nEscolha a carta que pretende criar: "))
                 for indexEs, valueEs in enumerate(self.naoTenhoCartas):
-                    if cartaEscolhida == valueEs:
-                        print("A seguinte carta foi criada usando Pó: {}".format(cartaEscolhida))
-                        self.minhasCartas.append(cartaEscolhida)
+                    if cartaEscolhida == (indexEs + 1) :
+                        print("A seguinte carta foi criada usando Pó: {}".format(valueEs))
+                        self.minhasCartas.append(valueEs)
                         moeda -= 10
                 Usuario.setMinhasCartas(self.usuario, self.minhasCartas)
                 Usuario.setQntPo(self.usuario, moeda)
@@ -54,13 +57,13 @@ class ForjaCarta:
             saldoPositivo = ForjaCarta.verificarSaldo(self, moeda, metodo)
             if saldoPositivo == True: 
                 print("\nCartas para fazer usando Coringa\n")
-                for indexP, valueP in enumerate(self.naoTenhoCartas):
-                    print(valueP)
+                for index, value in enumerate(self.naoTenhoCartas):
+                    print((index + 1), "->", value)
                 cartaEscolhida = int(input("\nEscolha a carta que pretende criar: "))
                 for indexEs, valueEs in enumerate(self.naoTenhoCartas):
-                    if cartaEscolhida == valueEs:
-                        print("A seguinte carta foi criada usando Coringa: {}".format(cartaEscolhida))
-                        self.minhasCartas.append(cartaEscolhida)
+                    if cartaEscolhida == (indexEs + 1):
+                        print("A seguinte carta foi criada usando Coringa: {}".format(valueEs))
+                        self.minhasCartas.append(valueEs)
                         moeda -= 1
                 Usuario.setMinhasCartas(self.usuario, self.minhasCartas)
                 Usuario.setQntCoringa(self.usuario, moeda)
@@ -72,17 +75,20 @@ class ForjaCarta:
 
     def desfazerCarta(self):
         cartasSobreviventes = []
+        cartaExcluida = ""
         print("\nCartas possíveis de serem desfeitas:\n")
-        for indexMC, valueMC in enumerate(self.minhasCartas):
-            print(valueMC)
+        for index, value in enumerate(self.minhasCartas):
+                print((index + 1), "->", value)
         cartaSelecionada = int(input("\nEscolha a carta que pretende desfazer:"))
         for indexDC, valueDC in enumerate(self.minhasCartas):
-            if cartaSelecionada != valueDC:
+            if cartaSelecionada != (indexDC + 1):
                 cartasSobreviventes.append(valueDC)
+            else:
+                cartaExcluida = valueDC
         if cartasSobreviventes == self.minhasCartas:
             print("Inserção inválida.")
         else:
-            print("\nCarta {}".format(cartaSelecionada)+" desfeita com sucesso")
+            print("\nCarta {}".format(cartaExcluida)+" desfeita com sucesso")
             self.qntPo += 5 
             Usuario.setQntPo(self.usuario, self.qntPo)
             Usuario.setMinhasCartas(self.usuario, cartasSobreviventes)
