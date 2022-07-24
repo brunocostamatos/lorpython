@@ -39,21 +39,15 @@ class Bau:
         for indexS, valueS in enumerate(self.cartasSorteadas):
             if valueS == "P":
                 self.qntPo += 10
-                self.usuario.qntPo += 10 #precisa inserir o set usuario qntpo
+                #self.usuario.qntPo += 10
+                Usuario.setQntPo(self.usuario, self.qntPo)
             else:
                 self.minhasCartas.append(valueS)
+        Usuario.setMinhasCartas(self.usuario, self.minhasCartas)
         persistencia = Persistencia(self.usuario)
         persistencia.salvar()
-        #Usuario.setQntPo(self, self.qntPo)        
-        #Usuario.setMinhasCartas(self, self.minhasCartas)
         
-    #def teste(self, usuario):
-        #teste2 = Usuario.getQntPo(usuario)
-        #tes = teste2 + 2
-        #teste = Usuario.setQntPo(self, tes)
-        #teste3 = Usuario.getQntPo(usuario)
-        #print(teste3, "cu")
 
     def __str__ (self):
         print("")
-        return "BAÚ PARA O USUÁRIO\t{}\n".format(self.nome) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nMinhas Cartas:\t{}\n".format(self.qntPo, self.qntCoringa, self.exp, self.nivel, self.minhasCartas)
+        return "BAÚ PARA O USUÁRIO\t{}\n".format(self.nome) + "Pó de Carta:\t{}\nCoringa:\t{}\nXP da Conta:\t{}\nNível da Conta:\t{}\nMinhas Cartas:\t{}\n".format(Usuario.getQntPo(self.usuario), Usuario.getQntCoringa(self.usuario), Usuario.getExp(self.usuario), Usuario.getNivel(self.usuario), Usuario.getMinhasCartas(self.usuario))

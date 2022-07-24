@@ -17,9 +17,10 @@ class Partida:
         print("EM DESENVOLVIMENTO")
 
     def escolherDificuldade(self):
-        print("\nDificuldades:\n \n1- Fácil \n2- Normal \n3- Difícil\n")
+        print("\nDificuldades:\n \n1- Fácil \n2- Normal \n3- Difícil \n0- Sair\n")
         selecionandoDificuldade = int(input("Escolha a dificuldade da partida: "))
         self.dificuldade = selecionandoDificuldade
+
         if(self.dificuldade == 1):
             print("\nEscolheu a dificuldade FÁCIL")
         elif(self.dificuldade == 2):
@@ -55,6 +56,12 @@ class Partida:
             else:
                 print("\nVocê perdeu :(")
                 self.vencedor = 0
+        elif self.dificuldade == 0 :
+            print()
+            self.vencedor = 0
+        else:
+            print("\nOpção inválida.\n")
+            self.vencedor = 0
 
     def incrementarXPUsuario(self): #INSERIR SET EXP USUARIO
         if self.vencedor == 1:
@@ -78,12 +85,12 @@ class Partida:
 
     def avancarNivelUsuario(self): 
         recompensa = Bau(self.usuario)
-        print(recompensa)
         recompensa.sortearCartas([])
         recompensa.verificarSorteio()
         recompensa.tranformarSorteio()
         #self.usuario.exp = 0
-        Usuario.setExp(self.usuario, 0)
+        expExcedente = Usuario.getExp(self.usuario) - 100 #faz o usuario comecar o proximo nivel com a experiencia excedente que ele ganhou na partida
+        Usuario.setExp(self.usuario, expExcedente)
         #self.usuario.nivel += 1
         self.nivel += 1
         Usuario.setNivel(self.usuario, self.nivel)
