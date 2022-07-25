@@ -40,16 +40,22 @@ class ForjaCarta:
                 print("\nCartas para fazer usando Pó\n")
                 for index, value in enumerate(self.naoTenhoCartas):
                     print((index + 1), "->", value)
+                print(0,"-> Sair")
                 cartaEscolhida = int(input("\nEscolha a carta que pretende criar: "))
-                for indexEs, valueEs in enumerate(self.naoTenhoCartas):
-                    if cartaEscolhida == (indexEs + 1) :
-                        print("A seguinte carta foi criada usando Pó: {}".format(valueEs))
-                        self.minhasCartas.append(valueEs)
-                        moeda -= 10
-                Usuario.setMinhasCartas(self.usuario, self.minhasCartas)
-                Usuario.setQntPo(self.usuario, moeda)
-                persistencia = Persistencia(self.usuario)
-                persistencia.salvar()
+                if cartaEscolhida == 0:
+                    print("")
+                elif cartaEscolhida > len(self.naoTenhoCartas) or cartaEscolhida < len(self.naoTenhoCartas):
+                    print("\nOpção inválida.")
+                else:
+                    for indexEs, valueEs in enumerate(self.naoTenhoCartas):
+                        if cartaEscolhida == (indexEs + 1) :
+                            print("\nA seguinte carta foi criada usando Pó: {}".format(valueEs))
+                            self.minhasCartas.append(valueEs)
+                            moeda -= 10
+                    Usuario.setMinhasCartas(self.usuario, self.minhasCartas)
+                    Usuario.setQntPo(self.usuario, moeda)
+                    persistencia = Persistencia(self.usuario)
+                    persistencia.salvar()
             else:
                 print("\nVocê não possui saldo para criar carta usando Pó")
         elif metodo == 2:
@@ -59,16 +65,22 @@ class ForjaCarta:
                 print("\nCartas para fazer usando Coringa\n")
                 for index, value in enumerate(self.naoTenhoCartas):
                     print((index + 1), "->", value)
+                print(0,"-> Sair")
                 cartaEscolhida = int(input("\nEscolha a carta que pretende criar: "))
-                for indexEs, valueEs in enumerate(self.naoTenhoCartas):
-                    if cartaEscolhida == (indexEs + 1):
-                        print("A seguinte carta foi criada usando Coringa: {}".format(valueEs))
-                        self.minhasCartas.append(valueEs)
-                        moeda -= 1
-                Usuario.setMinhasCartas(self.usuario, self.minhasCartas)
-                Usuario.setQntCoringa(self.usuario, moeda)
-                persistencia = Persistencia(self.usuario)
-                persistencia.salvar()
+                if cartaEscolhida == 0:
+                    print("")
+                elif cartaEscolhida > len(self.naoTenhoCartas) or cartaEscolhida < len(self.naoTenhoCartas):
+                    print("\nOpção inválida.")
+                else:
+                    for indexEs, valueEs in enumerate(self.naoTenhoCartas):
+                        if cartaEscolhida == (indexEs + 1):
+                            print("\nA seguinte carta foi criada usando Coringa: {}".format(valueEs))
+                            self.minhasCartas.append(valueEs)
+                            moeda -= 1
+                    Usuario.setMinhasCartas(self.usuario, self.minhasCartas)
+                    Usuario.setQntCoringa(self.usuario, moeda)
+                    persistencia = Persistencia(self.usuario)
+                    persistencia.salvar()
             else:
                 print("\nVocê não possui saldo para criar carta usando Coringa")
         print(self)
@@ -79,14 +91,18 @@ class ForjaCarta:
         print("\nCartas possíveis de serem desfeitas:\n")
         for index, value in enumerate(self.minhasCartas):
                 print((index + 1), "->", value)
+        print(0,"-> Sair")
         cartaSelecionada = int(input("\nEscolha a carta que pretende desfazer:"))
         for indexDC, valueDC in enumerate(self.minhasCartas):
             if cartaSelecionada != (indexDC + 1):
                 cartasSobreviventes.append(valueDC)
             else:
                 cartaExcluida = valueDC
-        if cartasSobreviventes == self.minhasCartas:
-            print("Inserção inválida.")
+        if cartaSelecionada == 0:
+            print("")
+        elif cartasSobreviventes == self.minhasCartas:
+            print("\nOpção inválida.")
+            print(self)
         else:
             print("\nCarta {}".format(cartaExcluida)+" desfeita com sucesso")
             self.qntPo += 5 
@@ -94,7 +110,7 @@ class ForjaCarta:
             Usuario.setMinhasCartas(self.usuario, cartasSobreviventes)
             persistencia = Persistencia(self.usuario)
             persistencia.salvar()
-        print(self)
+            print(self)
 
     def __str__ (self): #precisa inserir os sets
         print("")
