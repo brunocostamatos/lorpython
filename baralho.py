@@ -1,12 +1,17 @@
+from usuario import Usuario
+
 class Baralho: 
 
     def __init__ (self, usuario):
-        self.nome = usuario.nome
-        self.meusDecks = "EM DESENVOLVIMENTO"            
+        self.nome = Usuario.getNome(usuario)
+        self.meusDecks = Usuario.getMeusDecks(usuario)             
 
     def verDecks(self):
-        print("EM DESENVOLVIMENTO")
+        print("")
+        for indexP, valueP in enumerate(self.meusDecks):
+                    print(valueP)
+        print("")
 
     def __str__ (self):
         print("")
-        return "Usuário:\t{}\nMeus Decks:\t{}\n".format(self.nome, self.minhasCartas)
+        return "Usuário:\t{}\nMeus Decks:\t{}\n".format(self.nome, self.meusDecks)

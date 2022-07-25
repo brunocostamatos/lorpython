@@ -7,3 +7,4 @@ Demacia
 50
 1
 ['Espreitador Eternebroso', 'Bomba Saltitante', 'Pedinte Zaunita', 'Ataque Ressonante', 'Viktor', 'Fundição de Núcleos Hex', 'Diana', 'Te peguei!', 'Tá Avisado', 'Rastro Suspeito', 'Colosso Liberto', 'Tempestade de Lâminas', 'Elnuk Voluntário', 'Disciplinas Gêmeas', 'Jhin', 'Bardo', 'Sino']
+[['Jhin', 'Jhin', 'Jhin', 'Jhin', 'Jhin', 'Jhin', 'Jhin', 'Jhin', 'Jhin', 'Jhin'], ['Espreitador Eternebroso', 'Pedinte Zaunita', 'Bomba Saltitante', 'Ataque Ressonante', 'Viktor', 'Fundição de Núcleos Hex', 'Diana', 'Te peguei!', 'Tá Avisado', 'Rastro Suspeito'], ['Jhin', 'Espreitador Eternebroso', 'Bomba Saltitante', 'Pedinte Zaunita', 'Ataque Ressonante', 'Viktor', 'Fundição de Núcleos Hex', 'Diana', 'Te peguei!', 'Tá Avisado']]
