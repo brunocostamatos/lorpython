@@ -110,7 +110,7 @@ while controleError != 1:
                     if opcaoForjaDeck == 1:
                         forjaDeck.criarBaralho()
                     elif opcaoForjaDeck == 2:
-                        forjaCarta.desfazerCarta()
+                        forjaDeck.desfazerBaralho()
                     else:
                         print("\nOpção inválida.\n")
                     menuForjaDeck()
