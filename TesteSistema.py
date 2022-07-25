@@ -60,6 +60,7 @@ while controleError != 1:
                 opcaoPartida = int(input("\nEntre com sua opção: "))
                 while opcaoPartida != 0:
                     if opcaoPartida == 1:
+                        partida.selecionarDeck()
                         partida.escolherDificuldade()
                         partida.jogo()
                         partida.verificarVencedor()

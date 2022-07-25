@@ -12,9 +12,21 @@ class Partida:
         self.exp = Usuario.getExp(usuario)
         self.nivel = Usuario.getNivel(usuario)
         self.minhasCartas = Usuario.getMinhasCartas(usuario)
+        self.meusDecks = Usuario.getMeusDecks(usuario)
     
     def selecionarDeck(self):
-        print("EM DESENVOLVIMENTO")
+        if len(self.meusDecks) > 0:
+            print("\nDecks\n")
+            for index, value in enumerate(self.meusDecks):
+                print((index + 1), "->", value)
+            print(0,"-> Sair")
+            selecionandoDeck = int(input("Escolha um de seus Decks: "))
+            if selecionandoDeck <= len(self.meusDecks) and selecionandoDeck > 0:
+                self.deck = selecionandoDeck
+            else:
+                print("")
+        else: 
+            print("Você não pode iniciar uma partida sem cadastrar um deck")
 
     def escolherDificuldade(self):
         print("\nDificuldades:\n \n1- Fácil \n2- Normal \n3- Difícil \n0- Sair\n")
