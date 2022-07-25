@@ -1,0 +1,3738 @@
+[
+  {
+    "associatedCards": [
+      "01IO015T1",
+      "01IO015T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01IO015.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01IO015-full.png"
+    ],
+    "regions": [
+      "ionia"
+    ],
+    "attack": 4,
+    "cost": 4,
+    "health": 4,
+    "description": "Quando voc\u00ea Atordoar ou Retornar um inimigo, eu causo 2 de dano a ele.",
+    "levelupDescription": "Voc\u00ea Atordoa ou Retorna 5+ unidades.",
+    "flavorText": "\"A morte \u00e9 como o vento...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Yasuo",
+    "nameRef": "Yasuo",
+    "cardCode": "01IO015",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01IO041T2",
+      "01IO041T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01IO041.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01IO041-full.png"
+    ],
+    "regions": [
+      "ionia"
+    ],
+    "attack": 4,
+    "cost": 5,
+    "health": 3,
+    "description": "Fim de Rodada: Crie na m\u00e3o um feiti\u00e7o aleat\u00f3rio das suas regi\u00f5es.",
+    "levelupDescription": "Voc\u00ea est\u00e1 Iluminado.",
+    "flavorText": "\"Pela reflex\u00e3o, podemos focar a mente e encontrar caminhos para superar qualquer obst\u00e1culo.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Karma",
+    "nameRef": "Karma",
+    "cardCode": "01IO041",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01IO009T3",
+      "01IO009T2",
+      "01IO009T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01IO009.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01IO009-full.png"
+    ],
+    "regions": [
+      "ionia"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 2,
+    "description": "Atacar: Invoque 1 Sombra Viva atacante com os meus atributos.",
+    "levelupDescription": "Vi a mim ou minhas sombras Golpeando o Nexus inimigo duas vezes.",
+    "flavorText": "\"O equil\u00edbrio \u00e9 uma tolice. As sombras me mostraram o verdadeiro poder.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Zed",
+    "nameRef": "Zed",
+    "cardCode": "01IO009",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01IO032T2",
+      "01IO032T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01IO032.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01IO032-full.png"
+    ],
+    "regions": [
+      "ionia"
+    ],
+    "attack": 3,
+    "cost": 4,
+    "health": 5,
+    "description": "Auxiliar: Conceda Barreira ao meu aliado auxiliado nesta rodada.",
+    "levelupDescription": "Vi aliados ganharem Barreira 4+ vezes.",
+    "flavorText": "\"Como m\u00e3os atadas, o plano mortal e o espiritual se entrela\u00e7am.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Shen",
+    "nameRef": "Shen",
+    "cardCode": "01IO032",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01NX020T1",
+      "01NX020T3",
+      "01NX020T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01NX020.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01NX020-full.png"
+    ],
+    "regions": [
+      "noxus"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 2,
+    "description": "Ao me invocar ou Golpear: Crie 1 Revolu\u00e7\u00e3o do Machado na m\u00e3o.",
+    "levelupDescription": "Golpeei com 2+ Revolu\u00e7\u00f5es do Machado no total .",
+    "flavorText": "\"Quer um aut\u00f3grafo? Entra na fila.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Draven",
+    "nameRef": "Draven",
+    "cardCode": "01NX020",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01NX006T3",
+      "01NX006T2",
+      "01NX006T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01NX006.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01NX006-full.png"
+    ],
+    "regions": [
+      "noxus"
+    ],
+    "attack": 5,
+    "cost": 5,
+    "health": 5,
+    "description": "Atacar: Cause 1 de dano a cada aliado atacante \u00e0 minha direita e 1 de dano ao Nexus inimigo por cada aliado afetado.",
+    "levelupDescription": "5+ de seus aliados sobreviveram a dano.",
+    "flavorText": "Brutal. Frio. Cruel. Intrigante. Perspicaz. Charmoso.\nIrresist\u00edvel...",
+    "artistName": "SIXMOREVODKA",
+    "name": "Vladimir",
+    "nameRef": "Vladimir",
+    "cardCode": "01NX006",
+    "keywords": [
+      "fearsome"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01NX038T2",
+      "01NX038T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01NX038.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01NX038-full.png"
+    ],
+    "regions": [
+      "noxus"
+    ],
+    "attack": 6,
+    "cost": 6,
+    "health": 6,
+    "description": "",
+    "levelupDescription": "Vejo que o Nexus inimigo tem metade ou menos da sua Vida inicial.",
+    "flavorText": "\"Determina\u00e7\u00e3o de a\u00e7o e a for\u00e7a de um tit\u00e3. N\u00e3o h\u00e1 melhor general para liderar a Legi\u00e3o Trifariana.\" \u2013 Swain\n",
+    "artistName": "SIXMOREVODKA",
+    "name": "Darius",
+    "nameRef": "Darius",
+    "cardCode": "01NX038",
+    "keywords": [
+      "overwhelm"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01NX043",
+      "01NX042T2",
+      "01NX042T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01NX042.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01NX042-full.png"
+    ],
+    "regions": [
+      "noxus"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 2,
+    "description": "Ao me invocar, crie 1 Fio da L\u00e2mina Fugaz na m\u00e3o.",
+    "levelupDescription": "Eu Golpeei uma vez. Quando eu subir de n\u00edvel, me Retorne.",
+    "flavorText": "\"Nada como um bom alvo demaciano para agu\u00e7ar os sentidos...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Katarina",
+    "nameRef": "Katarina",
+    "cardCode": "01NX042",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01DE038",
+      "01DE022T1",
+      "01DE022T2",
+      "05SI009"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01DE022.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01DE022-full.png"
+    ],
+    "regions": [
+      "demacia"
+    ],
+    "attack": 3,
+    "cost": 2,
+    "health": 2,
+    "description": "",
+    "levelupDescription": "Vi a morte de 4+ aliados ou de uma Senna aliada.",
+    "flavorText": "\"Ficarei bem, Senna, enquanto tiver voc\u00ea comigo.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Lucian",
+    "nameRef": "Lucian",
+    "cardCode": "01DE022",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01DE042T2",
+      "01DE042T1",
+      "01DE042T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01DE042.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01DE042-full.png"
+    ],
+    "regions": [
+      "demacia"
+    ],
+    "attack": 3,
+    "cost": 5,
+    "health": 5,
+    "description": "",
+    "levelupDescription": "Vi voc\u00ea jogar 6+ de Mana em feiti\u00e7os. Quando eu subir de n\u00edvel, crie 1 Centelha Final na m\u00e3o.",
+    "flavorText": "\"Eu sempre soube que havia algo diferente em mim... uma luz que vem de dentro. N\u00e3o sei bem o que \u00e9, mas tenho que descobrir!\" ",
+    "artistName": "SIXMOREVODKA",
+    "name": "Lux",
+    "nameRef": "Lux",
+    "cardCode": "01DE042",
+    "keywords": [
+      "barrier"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01DE012T1",
+      "01DE012T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01DE012.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01DE012-full.png"
+    ],
+    "regions": [
+      "demacia"
+    ],
+    "attack": 5,
+    "cost": 5,
+    "health": 5,
+    "description": "Ao me invocar, conceda +1|+1 aos outros aliados nesta rodada.",
+    "levelupDescription": "Golpeei duas vezes.",
+    "flavorText": "O treinamento e a resili\u00eancia s\u00e3o os pilares de um soldado. Mesmo diante de grandes perigos, n\u00f3s n\u00e3o hesitaremos.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Garen",
+    "nameRef": "Garen",
+    "cardCode": "01DE012",
+    "keywords": [
+      "regeneration"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "elite"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01DE045T1",
+      "01DE045T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01DE045.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01DE045-full.png"
+    ],
+    "regions": [
+      "demacia"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 2,
+    "description": "",
+    "levelupDescription": "Eu abati 2 inimigos.",
+    "flavorText": "\"Das arenas aos torneios, dos treinos ao campo de batalha, eu anseio por um advers\u00e1rio \u00e0 altura. N\u00e3o descansarei at\u00e9 saber que sou a melhor.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Fiora",
+    "nameRef": "Fiora",
+    "cardCode": "01DE045",
+    "keywords": [
+      "challenger"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01PZ040T2",
+      "01PZ040T1",
+      "01PZ040T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01PZ040.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01PZ040-full.png"
+    ],
+    "regions": [
+      "piltoverzaun"
+    ],
+    "attack": 4,
+    "cost": 4,
+    "health": 3,
+    "description": "",
+    "levelupDescription": "Vejo que sua m\u00e3o est\u00e1 vazia.",
+    "flavorText": "\"Qual o problema, Fishbones?\"\n\"Estou preocupado com voc\u00ea, Jinx! Sempre que fica entediada...\"\n\"... d\u00e1 vontade de explodir alguma coisa! \u00d3tima ideia, Fishbones!\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Jinx",
+    "nameRef": "Jinx",
+    "cardCode": "01PZ040",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01PZ022",
+      "01PZ008T2",
+      "01PZ008T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01PZ008.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01PZ008-full.png"
+    ],
+    "regions": [
+      "piltoverzaun",
+      "bandlecity"
+    ],
+    "attack": 1,
+    "cost": 1,
+    "health": 1,
+    "description": "Golpe ao Nexus: Plante 5 Cogumelos Venenosos em cartas aleat\u00f3rias do deck inimigo.",
+    "levelupDescription": "Voc\u00ea plantou 15+ Cogumelos Venenosos.",
+    "flavorText": "\"Escoteiros de Band\u00f3polis - Regra 154: n\u00e3o tema o desconhecido! Regra 276: os moradores dos bosques s\u00e3o nossos amigos! Regra 354: se \u00e9 peludo, pode ser seguro acariciar, mas n\u00e3o comer! Regra 417...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Teemo",
+    "nameRef": "Teemo",
+    "cardCode": "01PZ008",
+    "keywords": [
+      "elusive"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01PZ056T10",
+      "01PZ056T3",
+      "01PZ056T1",
+      "01PZ056T4",
+      "01PZ056T7",
+      "01PZ056T8",
+      "01PZ056T9",
+      "01PZ056T2",
+      "01PZ056T6",
+      "01PZ056T5",
+      "01PZ015"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01PZ056.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01PZ056-full.png"
+    ],
+    "regions": [
+      "piltoverzaun",
+      "bandlecity"
+    ],
+    "attack": 2,
+    "cost": 5,
+    "health": 4,
+    "description": "Ao jogar um feiti\u00e7o, crie uma Torre Fugaz com custo equivalente na m\u00e3o. Ela custa 0.",
+    "levelupDescription": "Vi voc\u00ea invocar 12+ de Poder em aliados Tecnol\u00f3gicos.",
+    "flavorText": "\"Cientista maluco? Me poupe! T\u00e1 na cara que eu sou um cientista muito est\u00e1vel, s\u00f3 levemente desorganizado e ecl\u00e9tico!\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Heimerdinger",
+    "nameRef": "Heimerdinger",
+    "cardCode": "01PZ056",
+    "keywords": [
+      "imbue"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01PZ036T2",
+      "01PZ036T1",
+      "01PZ052"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01PZ036.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01PZ036-full.png"
+    ],
+    "regions": [
+      "piltoverzaun"
+    ],
+    "attack": 1,
+    "cost": 3,
+    "health": 3,
+    "description": "Golpe ao Nexus: Crie 1 Disparo M\u00edstico Fugaz na m\u00e3o.",
+    "levelupDescription": "Voc\u00ea alvejou inimigos 6+ vezes.",
+    "flavorText": "\"\u00d3culos? Confere. Len\u00e7o? Confere. Manopla-incr\u00edvel-com-recursos-m\u00e1gicos-que-eu-n\u00e3o-entendo-totalmente? Confere, confere... e confere!\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Ezreal",
+    "nameRef": "Ezreal",
+    "cardCode": "01PZ036",
+    "keywords": [
+      "elusive"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01FR024T4",
+      "01FR024T3",
+      "01FR024T2",
+      "01FR024T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01FR024.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01FR024-full.png"
+    ],
+    "regions": [
+      "freljord"
+    ],
+    "attack": 3,
+    "cost": 6,
+    "health": 5,
+    "description": "Atacar: Cause 1 de dano a todos os inimigos e ao Nexus inimigo.\r\nSuspiro Final: Eu ressuscito e me transformo em Ovonivia.",
+    "levelupDescription": "Voc\u00ea est\u00e1 Iluminado.",
+    "flavorText": "\"Como filha desta terra hostil, meu dever \u00e9 proteg\u00ea-la. Nem o tempo, nem a guerra, nem mesmo a morte impedir\u00e1 minha vig\u00edlia.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Anivia",
+    "nameRef": "Anivia",
+    "cardCode": "01FR024",
+    "keywords": [
+      "lastbreath"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01FR039T2",
+      "01FR039T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01FR039.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01FR039-full.png"
+    ],
+    "regions": [
+      "freljord"
+    ],
+    "attack": 8,
+    "cost": 8,
+    "health": 4,
+    "description": "",
+    "levelupDescription": "Em vez de morrer, eu subo de n\u00edvel.",
+    "flavorText": "\"N\u00e3o morra pela causa. Viva por ela...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Tryndamere",
+    "nameRef": "Tryndamere",
+    "cardCode": "01FR039",
+    "keywords": [
+      "overwhelm"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01FR053",
+      "01FR009T2",
+      "01FR009T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01FR009.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01FR009-full.png"
+    ],
+    "regions": [
+      "freljord"
+    ],
+    "attack": 0,
+    "cost": 4,
+    "health": 6,
+    "description": "Quando eu sobreviver a dano pela primeira vez, invoque 1 Poro Poderoso.",
+    "levelupDescription": "Eu sobrevivi a 10 de dano no total.",
+    "flavorText": "\"Papai, conta aquela do Braum e da porta!\"\n\"Ou quando ele caiu e dividiu uma montanha em duas!\"\n\"Ah! E aquela vez que ele salvou a taverna de um yeti furioso!\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Braum",
+    "nameRef": "Braum",
+    "cardCode": "01FR009",
+    "keywords": [
+      "challenger",
+      "regeneration"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01FR038T2",
+      "01FR038T1",
+      "01FR038T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01FR038.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01FR038-full.png"
+    ],
+    "regions": [
+      "freljord"
+    ],
+    "attack": 5,
+    "cost": 4,
+    "health": 3,
+    "description": "Atacar: Congele o inimigo Mais Forte.",
+    "levelupDescription": "Voc\u00ea reduziu o Poder de 4+ inimigos a 0. Quando eu subir de n\u00edvel, crie 1 Flecha de Cristal no topo do deck.",
+    "flavorText": "\"Quando olho para minha terra, eu vejo o que ela \u00e9, mas vejo tamb\u00e9m o que poderia ser. Pr\u00f3spera e abundante, n\u00e3o apenas para o meu povo, mas para todos que buscam a paz. Uma Freljord unida.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Ashe",
+    "nameRef": "Ashe",
+    "cardCode": "01FR038",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01SI053T2",
+      "01SI053T1",
+      "01SI002"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01SI053.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01SI053-full.png"
+    ],
+    "regions": [
+      "shadowisles"
+    ],
+    "attack": 2,
+    "cost": 2,
+    "health": 3,
+    "description": "Atacar: Invoque 1 Cria Aracn\u00eddea atacante.",
+    "levelupDescription": "In\u00edcio de Rodada: Voc\u00ea tem 3+ Aranhas adicionais.",
+    "flavorText": "Antiga l\u00edder de uma das casas mais poderosas de Noxus, Elise se associou \u00e0s Ilhas das Sombras para manter sua beleza e juventude em troca de algumas pobres almas. Decis\u00e3o f\u00e1cil.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Elise",
+    "nameRef": "Elise",
+    "cardCode": "01SI053",
+    "keywords": [
+      "fearsome"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "spider"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01SI042T1",
+      "01SI042T2",
+      "01SI024"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01SI042.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01SI042-full.png"
+    ],
+    "regions": [
+      "shadowisles"
+    ],
+    "attack": 5,
+    "cost": 6,
+    "health": 6,
+    "description": "Atacar: Invoque 2 Cavaleiros Espectrais atacantes.",
+    "levelupDescription": "Voc\u00ea atacou com 7+ aliados Ef\u00eameros.",
+    "flavorText": "Isso n\u00e3o \u00e9 um trov\u00e3o. A Sombra da Guerra se aproxima.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Hecarim",
+    "nameRef": "Hecarim",
+    "cardCode": "01SI042",
+    "keywords": [
+      "overwhelm"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01SI030T2",
+      "01SI030T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01SI030.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01SI030-full.png"
+    ],
+    "regions": [
+      "shadowisles"
+    ],
+    "attack": 4,
+    "cost": 3,
+    "health": 3,
+    "description": "",
+    "levelupDescription": "Vi 3+ aliados morrerem.",
+    "flavorText": "Em vida, ela foi uma general, uma protetora, uma hero\u00edna. Mas com a perda do corpo, n\u00e3o restou nada dela al\u00e9m das chamas ardentes da retalia\u00e7\u00e3o \u2013 um esp\u00edrito vingativo incapaz de morrer.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Kalista",
+    "nameRef": "Kalista",
+    "cardCode": "01SI030",
+    "keywords": [
+      "fearsome"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01SI052T1",
+      "01SI052T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01SI052.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set1/pt_br/img/cards/01SI052-full.png"
+    ],
+    "regions": [
+      "shadowisles"
+    ],
+    "attack": 3,
+    "cost": 5,
+    "health": 6,
+    "description": "",
+    "levelupDescription": "Vi 6+ unidades morrerem.",
+    "flavorText": "\"Clink, clenk, l\u00e1 v\u00eam as correntes trazendo a sua sina...\nClink, clenk, com suas correntes, o Guardi\u00e3o se aproxima...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Thresh",
+    "nameRef": "Thresh",
+    "cardCode": "01SI052",
+    "keywords": [
+      "challenger"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set1",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02PZ008T2",
+      "02PZ008T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02PZ008.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02PZ008-full.png"
+    ],
+    "regions": [
+      "piltoverzaun"
+    ],
+    "attack": 2,
+    "cost": 5,
+    "health": 4,
+    "description": "Eu tenho +1|+0 para cada carta que voc\u00ea jogou nesta partida (m\u00e1x. de +10|+0).",
+    "levelupDescription": "Eu Golpeei causando 10+ de dano.",
+    "flavorText": "\"Defensora Vi, por favor! Pense no povo! Nos danos colaterais! Nos PROCESSOS POR LES\u00c3O CORPORAL!\"<br>\u2013 Investigadora Perspicaz",
+    "artistName": "SIXMOREVODKA",
+    "name": "Vi",
+    "nameRef": "Vi",
+    "cardCode": "02PZ008",
+    "keywords": [
+      "challenger",
+      "tough"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02BW032T3",
+      "02BW032T2",
+      "02BW032T1",
+      "02BW032T4"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02BW032.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02BW032-full.png"
+    ],
+    "regions": [
+      "bilgewater"
+    ],
+    "attack": 5,
+    "cost": 5,
+    "health": 4,
+    "description": "Ao me invocar, invoque 1 Barril de P\u00f3lvora.",
+    "levelupDescription": "Voc\u00ea causou dano ao Nexus inimigo em 5 rodadas diferentes.",
+    "flavorText": "\"N\u00e3o fique encarando, pois ele percebe. E nunca fale mal dele, pois escuta tudo o que \u00e9 sussurrado em \u00c1guas de Sentina. L\u00e1 vem ele. Cabe\u00e7a baixa. Olhos ainda mais baixos.\" \u2013 Ajudante do Apavorador",
+    "artistName": "SIXMOREVODKA",
+    "name": "Gangplank",
+    "nameRef": "Gangplank",
+    "cardCode": "02BW032",
+    "keywords": [
+      "overwhelm"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02BW022T4",
+      "02BW022T3",
+      "02BW022T2",
+      "02BW022T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02BW022.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02BW022-full.png"
+    ],
+    "regions": [
+      "bilgewater"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 3,
+    "description": "Quando aliados atacarem, cause 1 de dano a todos os inimigos em batalha e ao Nexus inimigo.",
+    "levelupDescription": "Eu vi voc\u00ea atacar 4 vezes",
+    "flavorText": "\"'Miss Fortune? Aqui voc\u00ea deve me chamar de 'capit\u00e3'.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Miss Fortune",
+    "nameRef": "MissFortune",
+    "cardCode": "02BW022",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02BW046T3",
+      "02BW046T1",
+      "02BW025",
+      "02BW046T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02BW046.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02BW046-full.png"
+    ],
+    "regions": [
+      "bilgewater",
+      "bandlecity"
+    ],
+    "attack": 2,
+    "cost": 1,
+    "health": 1,
+    "description": "Ao jogar um feiti\u00e7o, interrompa todas as habilidades e feiti\u00e7os inimigos direcionados a mim e me conceda Elusivo nesta rodada.",
+    "levelupDescription": "Voc\u00ea jogou 6+ feiti\u00e7os.",
+    "flavorText": "De todas as lend\u00e1rias criaturas de \u00c1guas de Sentina, Fizz \u00e9 o mais vol\u00e1til. Alguns marinheiros o culpam pelos in\u00fameros naufr\u00e1gios na costa...",
+    "artistName": "SIXMOREVODKA",
+    "name": "Fizz",
+    "nameRef": "Fizz",
+    "cardCode": "02BW046",
+    "keywords": [
+      "imbue"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02BW026T2",
+      "02BW026T4",
+      "02BW026T5",
+      "02BW026T3",
+      "02BW026T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02BW026.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02BW026-full.png"
+    ],
+    "regions": [
+      "bilgewater"
+    ],
+    "attack": 2,
+    "cost": 4,
+    "health": 2,
+    "description": "Jogar: Jogue uma Carta do Destino.",
+    "levelupDescription": "Eu vi voc\u00ea comprar 9+ cartas.",
+    "flavorText": "\"Agora fique de olho nas m\u00e3os, conte as cartas e tente acompanhar. E n\u00e3o se esque\u00e7a...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Twisted Fate",
+    "nameRef": "TwistedFate",
+    "cardCode": "02BW026",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02BW053T1",
+      "02BW053T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02BW053.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02BW053-full.png"
+    ],
+    "regions": [
+      "bilgewater"
+    ],
+    "attack": 0,
+    "cost": 7,
+    "health": 12,
+    "description": "",
+    "levelupDescription": "Quando voc\u00ea estiver nas Profundezas.  Quando eu subir de n\u00edvel, copie os aliados Abdicados com 4+ de custo para o seu deck.",
+    "flavorText": "\"Foi uma \u00e2ncora que destruiu tudo. At\u00e9 puxou o Finn l\u00e1 pra baixo. S\u00f3 sobraram alguns de n\u00f3s, mas a noite vem chegando... e o frio tamb\u00e9m. Desculpa, m\u00e3e. Voc\u00ea tinha raz\u00e3o. O Tit\u00e3 vive.\" \u2013 Bilhete encontrado",
+    "artistName": "SIXMOREVODKA",
+    "name": "Nautilus",
+    "nameRef": "Nautilus",
+    "cardCode": "02BW053",
+    "keywords": [
+      "tough",
+      "fearsome"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02FR002T3",
+      "02FR002T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02FR002.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02FR002-full.png"
+    ],
+    "regions": [
+      "freljord"
+    ],
+    "attack": 5,
+    "cost": 6,
+    "health": 6,
+    "description": "Jogar: Conceda Congelar e Vulner\u00e1vel a um inimigo nesta rodada.",
+    "levelupDescription": "Voc\u00ea causou dano ao Nexus inimigo em 5 rodadas diferentes.",
+    "flavorText": "Embora seu mangual de Gelo Verdadeiro seja formid\u00e1vel, Sejuani \u00e9 a verdadeira arma. Forjada no frio cortante de Freljord e testada pelos climas congelantes.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Sejuani",
+    "nameRef": "Sejuani",
+    "cardCode": "02FR002",
+    "keywords": [
+      "overwhelm"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02NX007T2",
+      "02NX007T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02NX007.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02NX007-full.png"
+    ],
+    "regions": [
+      "noxus"
+    ],
+    "attack": 3,
+    "cost": 5,
+    "health": 6,
+    "description": "Golpe ao Nexus: Cause 3 de dano ao Nexus inimigo.",
+    "levelupDescription": "Voc\u00ea causou 12 de dano fora de combate.",
+    "flavorText": "\"Um poder al\u00e9m da compreens\u00e3o mortal me permite ver o que os outros n\u00e3o veem. Eu enxergo nas trevas que os outros temem.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Swain",
+    "nameRef": "Swain",
+    "cardCode": "02NX007",
+    "keywords": [
+      "fearsome"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02DE006T2",
+      "02DE006T1",
+      "02DE006T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02DE006.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02DE006-full.png"
+    ],
+    "regions": [
+      "demacia"
+    ],
+    "attack": 3,
+    "cost": 5,
+    "health": 5,
+    "description": "Ao me invocar, invoque Valor.",
+    "levelupDescription": "Eu vi voc\u00ea atacar 4 vezes",
+    "flavorText": "\"Nossa Quinn sempre foi uma destemida cavaleira da patrulha. Com Valor ao seu lado e nos c\u00e9us, eles formam uma dupla imbat\u00edvel.\" \u2013 Genevieve Cordielmo, cavaleira da patrulha",
+    "artistName": "SIXMOREVODKA",
+    "name": "Quinn",
+    "nameRef": "Quinn",
+    "cardCode": "02DE006",
+    "keywords": [
+      "scout"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02SI008T1",
+      "02SI008T2",
+      "02SI008T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02SI008.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02SI008-full.png"
+    ],
+    "regions": [
+      "shadowisles"
+    ],
+    "attack": 1,
+    "cost": 4,
+    "health": 4,
+    "description": "A cada rodada, ao invocar outro aliado pela primeira vez, Abdique 2 e invoque 1 Muda.",
+    "levelupDescription": "Suas unidades morreram ou suas cartas foram Abdicadas 25 vezes.",
+    "flavorText": "Essas terras amaldi\u00e7oadas n\u00e3o derrubariam Maokai. O compromisso do ente \u00e9 t\u00e3o f\u00e9rreo, sua f\u00faria t\u00e3o intensa, que nada poderia atrapalhar.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Maokai",
+    "nameRef": "Maokai",
+    "cardCode": "02SI008",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "02IO008T1",
+      "02IO011",
+      "02IO006T3",
+      "02IO006T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02IO006.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set2/pt_br/img/cards/02IO006-full.png"
+    ],
+    "regions": [
+      "ionia"
+    ],
+    "attack": 3,
+    "cost": 5,
+    "health": 5,
+    "description": "Ao jogar um feiti\u00e7o, me conceda Desafiador nesta rodada.\r\nSe jogar outro, me conceda Barreira nesta rodada.",
+    "levelupDescription": "Voc\u00ea jogou 8+ feiti\u00e7os.",
+    "flavorText": "\"O Drag\u00e3o ajuda os dignos. Aos cansados, ele d\u00e1 vigor. Aos enfermos, conforto. Aos perdidos, a luz. Aos abalados, o equil\u00edbrio...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Lee Sin",
+    "nameRef": "LeeSin",
+    "cardCode": "02IO006",
+    "keywords": [
+      "imbue"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set2",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03NX007T1",
+      "03NX012",
+      "03NX007T3",
+      "03NX008",
+      "03NX010",
+      "03NX011"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03NX007.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03NX007-full.png"
+    ],
+    "regions": [
+      "noxus"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 4,
+    "description": "Ao me invocar, se tiver o S\u00edmbolo de Ataque, ou ao receber o S\u00edmbolo de Ataque, Reforje.",
+    "levelupDescription": "Eu vejo L\u00e2mina do Ex\u00edlio na sua m\u00e3o.",
+    "flavorText": "\"Eu n\u00e3o fugirei do que j\u00e1 fui. Prometi que consertaria tudo aquilo que quebrei...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Riven",
+    "nameRef": "Riven",
+    "cardCode": "03NX007",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03BW004T4",
+      "03BW004T3",
+      "03BW004T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03BW004.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03BW004-full.png"
+    ],
+    "regions": [
+      "bilgewater"
+    ],
+    "attack": 2,
+    "cost": 4,
+    "health": 6,
+    "description": "In\u00edcio de Rodada: Crie 1 Um Gosto Adquirido na m\u00e3o.",
+    "levelupDescription": "Eu Capturei 3+ unidades. Quando eu subir de n\u00edvel, Oblitere meus inimigos Capturados e liberte meus aliados.",
+    "flavorText": "\"Eu conhe\u00e7o essa express\u00e3o, colega. Sinto que voc\u00ea olha para as cartas na m\u00e3o pensando que merece mais. Voc\u00ea s\u00f3 gosta do bom e do melhor, n\u00e9? Talvez eu possa saciar sua fome e permitir que saboreie tudo aquilo que sempre desejou. Basta escrever seu nome nesse papel... e sua satisfa\u00e7\u00e3o ser\u00e1 eterna.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Tahm Kench",
+    "nameRef": "TahmKench",
+    "cardCode": "03BW004",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03MT217T13",
+      "03MT217T11",
+      "03MT217T8",
+      "03MT217T9",
+      "03MT217T12",
+      "03MT217T14",
+      "03MT217T10"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT217.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT217-full.png"
+    ],
+    "regions": [
+      "targon"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 3,
+    "description": "Anoitecer: Escolha uma Arma Lunari para criar na m\u00e3o.\r\nNa primeira vez que voc\u00ea jogar 2 outras cartas a cada rodada, crie na m\u00e3o a Arma Lunari da Fase, se ainda n\u00e3o tiver uma.",
+    "levelupDescription": "Voc\u00ea jogou 4 ou mais Armas Lunari.",
+    "flavorText": "\"A cada conflito, mostramos aos Solari que somos dignos de respeito. Ensinamos a eles que a luz da lua \u00e9 igual \u00e0 do sol; ensinamos que n\u00e3o se deve subestimar o desconhecido; ensinamos as li\u00e7\u00f5es que eles ainda precisam aprender...\"<br>\u2013 Porta-Voz Lunari",
+    "artistName": "SIXMOREVODKA",
+    "name": "Aphelios",
+    "nameRef": "Aphelios",
+    "cardCode": "03MT217",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03MT056T2",
+      "03MT056T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT056.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT056-full.png"
+    ],
+    "regions": [
+      "targon"
+    ],
+    "attack": 2,
+    "cost": 2,
+    "health": 2,
+    "description": "Anoitecer ou ao ativar outra carta com Anoitecer: Me conceda Desafiador nesta rodada.",
+    "levelupDescription": "Voc\u00ea ativou Anoitecer 4+ vezes.",
+    "flavorText": "Entre eles, preparando-se para a batalha, ali estava ela. Irradiando luz, adornada em prata e azul. Seus olhos brilhavam como estrelas. Quando a lua se ergueu e a iluminou, todos os Lunari ali reunidos fecharam os olhos. Em silenciosa ora\u00e7\u00e3o, rogaram pela seguran\u00e7a dela e agradeceram por sua presen\u00e7a.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Diana",
+    "nameRef": "Diana",
+    "cardCode": "03MT056",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03MT055T2",
+      "03MT055T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT055.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT055-full.png"
+    ],
+    "regions": [
+      "targon"
+    ],
+    "attack": 1,
+    "cost": 3,
+    "health": 6,
+    "description": "Auxiliar: Eu e meu aliado auxiliado nos curamos em 4.",
+    "levelupDescription": "Voc\u00ea curou aliados que sofreram dano 4+ vezes.",
+    "flavorText": "\"Curar \u00e9, por natureza, um ato de altru\u00edsmo. Voc\u00ea n\u00e3o precisa extrair o poder dos outros; eles o oferecem de bom grado. Mostre compaix\u00e3o e ver\u00e1 como eles brilham.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Soraka",
+    "nameRef": "Soraka",
+    "cardCode": "03MT055",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03MT054T3",
+      "03MT054T2",
+      "03MT054T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT054.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT054-full.png"
+    ],
+    "regions": [
+      "targon"
+    ],
+    "attack": 3,
+    "cost": 4,
+    "health": 5,
+    "description": "Amanhecer: Atordoe o inimigo Mais Forte.",
+    "levelupDescription": "Voc\u00ea ativou Amanhecer 4+ vezes.",
+    "flavorText": "Entre eles, preparando-se para a batalha, ali estava ela. Irradiando luz, adornada em vermelho e dourado. Seus olhos brilhavam como brasas. Quando o sol raiou e iluminou sua cabe\u00e7a como uma coroa, todos os Solari ali presentes baixaram os olhos, n\u00e3o por vergonha, mas em rever\u00eancia \u00e0 sua l\u00edder iluminada.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Leona",
+    "nameRef": "Leona",
+    "cardCode": "03MT054",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03MT058T2",
+      "03MT058T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT058.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT058-full.png"
+    ],
+    "regions": [
+      "targon"
+    ],
+    "attack": 3,
+    "cost": 4,
+    "health": 5,
+    "description": "Auxiliar: Conceda Robusto a mim e ao meu aliado auxiliado nesta rodada. Copie neste aliado o \u00faltimo feiti\u00e7o jogado por voc\u00ea apenas em mim nesta rodada (n\u00e3o \u00e9 poss\u00edvel copiar de novo).",
+    "levelupDescription": "Vi voc\u00ea alvejar ou auxiliar aliados 7+ vezes.",
+    "flavorText": "\"A am\u00e1vel gentileza de Taric \u00e9 uma inspira\u00e7\u00e3o para todos que o conhecem, estimulando-os a encontrar a chama interior para suportar as noites mais frias.\" \u2013 Vidente da Montanha",
+    "artistName": "SIXMOREVODKA",
+    "name": "Taric",
+    "nameRef": "Taric",
+    "cardCode": "03MT058",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03MT009T1",
+      "03MT009T2",
+      "03MT093",
+      "03MT091",
+      "03MT015"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT009.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT009-full.png"
+    ],
+    "regions": [
+      "targon"
+    ],
+    "attack": 1,
+    "cost": 1,
+    "health": 1,
+    "description": "Golpe ao Nexus: Crie 1 Constel\u00e1rio Maneir\u00edssimo na m\u00e3o ou reduza o custo em 1 se j\u00e1 tiver uma c\u00f3pia.",
+    "levelupDescription": "Eu vi voc\u00ea jogar 10 cartas com nomes diferentes.",
+    "flavorText": "\"Oiiiii\u00ea\u00ea\u00ea\u00ea! O que t\u00e1 fazendo? T\u00e1 JOGANDO CARTAS? Posso jogar? Qu\u00ea?! EU T\u00d4 NESSE JOGO? Hahaha! Que dimens\u00e3o boba...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Zoe",
+    "nameRef": "Zoe",
+    "cardCode": "03MT009",
+    "keywords": [
+      "elusive"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03MT087T2",
+      "03MT087T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT087.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03MT087-full.png"
+    ],
+    "regions": [
+      "targon"
+    ],
+    "attack": 10,
+    "cost": 10,
+    "health": 10,
+    "description": "Jogar: Evoque uma carta Celestial com 7 ou mais de custo.\r\nIn\u00edcio de Rodada: Crie uma carta Celestial aleat\u00f3ria na m\u00e3o.",
+    "levelupDescription": "Fim de Rodada: Seus aliados t\u00eam 20+ de Poder total.",
+    "flavorText": "\"Pode escrever o que quiser sobre mim, criatura med\u00edocre! S\u00f3 n\u00e3o esque\u00e7a de dizer que sou lindo, magn\u00edfico e muit\u00edssimo inteligente. Quer que eu soletre?\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Aurelion Sol",
+    "nameRef": "AurelionSol",
+    "cardCode": "03MT087",
+    "keywords": [
+      "fury",
+      "spellshield"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "dragon"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03PZ003T1",
+      "03PZ003T15",
+      "03PZ004T1",
+      "03PZ004T2",
+      "03PZ003T11"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03PZ003.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03PZ003-full.png"
+    ],
+    "regions": [
+      "piltoverzaun"
+    ],
+    "attack": 2,
+    "cost": 4,
+    "health": 4,
+    "description": "Ao me invocar ou In\u00edcio de Rodada: Crie 1 Aprimoramento de N\u00facleo Hex na m\u00e3o.",
+    "levelupDescription": "Voc\u00ea jogou 7+ cartas criadas.",
+    "flavorText": "\"Voc\u00ea j\u00e1 testemunhou muita trag\u00e9dia, Zaun, mas chegou a hora de mudar tudo isso. E, como todo grande avan\u00e7o, deve come\u00e7ar dentro de voc\u00ea.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Viktor",
+    "nameRef": "Viktor",
+    "cardCode": "03PZ003",
+    "keywords": [
+      "augment"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03SI005T3",
+      "03SI005T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03SI005.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03SI005-full.png"
+    ],
+    "regions": [
+      "shadowisles"
+    ],
+    "attack": 5,
+    "cost": 4,
+    "health": 3,
+    "description": "Anoitecer: D\u00ea Vulner\u00e1vel a um inimigo e conceda -1|-0 aos inimigos nesta rodada.",
+    "levelupDescription": "Voc\u00ea atacou com 5+ aliados com Anoitecer.",
+    "flavorText": "\"Parece que, depois de abalar almas suficientes, a criatura invade nosso mundo. S\u00f3 a esperan\u00e7a pode mandar este monstro de volta ao reino dele... mas a esperan\u00e7a j\u00e1 morreu h\u00e1 muito tempo por aqui, com o \u00faltimo suspiro de uma rainha e o grito eterno de um rei.\"\n\u2013 Notas de Jens Tommen, historiador",
+    "artistName": "SIXMOREVODKA",
+    "name": "Nocturne",
+    "nameRef": "Nocturne",
+    "cardCode": "03SI005",
+    "keywords": [
+      "fearsome"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03IO002T1",
+      "03IO002T5",
+      "03IO008T1",
+      "03IO002T4"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03IO002.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03IO002-full.png"
+    ],
+    "regions": [
+      "ionia",
+      "bandlecity"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 3,
+    "description": "Auxiliar: Meu aliado auxiliado aumenta em at\u00e9 4|4 nesta rodada.",
+    "levelupDescription": "Aliados foram auxiliados 3+ vezes.",
+    "flavorText": "\"N\u00e3o se preocupa, Pix! A gente vai sair da Clareira e deixar TUDO bem adoribus! T\u00e1 pronto?!\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Lulu",
+    "nameRef": "Lulu",
+    "cardCode": "03IO002",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03DE002",
+      "03DE011T2",
+      "03DE011T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03DE011.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03DE011-full.png"
+    ],
+    "regions": [
+      "demacia"
+    ],
+    "attack": 3,
+    "cost": 4,
+    "health": 4,
+    "description": "Atacar: Me conceda +1|+1 nesta rodada.",
+    "levelupDescription": "Vi Drag\u00f5es aliados causarem 12+ de dano.",
+    "flavorText": "\"Por um lado, ela representa nossos inimigos mais odiados, pois sua esp\u00e9cie s\u00f3 trouxe sofrimento para Demacia. Por outro, o Pr\u00edncipe confia nela, e ela demonstra ser uma combatente determinada e uma importante aliada. Espero que n\u00e3o traia a confian\u00e7a que depositamos nela.\"\n\u2013 P\u00e1gina do relato do Tenente Jerik sobre Wrenwall",
+    "artistName": "SIXMOREVODKA",
+    "name": "Shyvana",
+    "nameRef": "Shyvana",
+    "cardCode": "03DE011",
+    "keywords": [
+      "fury"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "dragon"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "03FR006T1",
+      "03FR006T3",
+      "03FR006T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03FR006.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set3/pt_br/img/cards/03FR006-full.png"
+    ],
+    "regions": [
+      "freljord"
+    ],
+    "attack": 4,
+    "cost": 5,
+    "health": 6,
+    "description": "Ao me invocar, crie 1 Pilar de Gelo na m\u00e3o.",
+    "levelupDescription": "Eu vi voc\u00ea jogar Pilar de Gelo.",
+    "flavorText": "Uma a uma, tochas se acenderam ao longo do desfiladeiro, revelando o cen\u00e1rio. Eram dezenas de trolls, talvez centenas, todos enormes, fortes e letais.\n\"Vou perguntar mais uma vez\", rosnou Trundle, erguendo o Treme-ossos sobre o ombro. \"Voc\u00ea v\u00e3o desistir ou vou ter que esmagar seus cr\u00e2nios?\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Trundle",
+    "nameRef": "Trundle",
+    "cardCode": "03FR006",
+    "keywords": [
+      "regeneration"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set3",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04PZ001T3",
+      "04PZ001T2",
+      "04PZ007",
+      "04PZ001T4",
+      "04PZ011T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04PZ001.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04PZ001-full.png"
+    ],
+    "regions": [
+      "piltoverzaun"
+    ],
+    "attack": 4,
+    "cost": 4,
+    "health": 2,
+    "description": "Golpear: Crie 1 Artimanha Temporal Fugaz na m\u00e3o.",
+    "levelupDescription": "Voc\u00ea Previu 4+ vezes. Quando eu subir de n\u00edvel, crie 3 Cronoquebras no seu deck.",
+    "flavorText": "O lance n\u00e3o \u00e9 quanto tempo voc\u00ea tem, \u00e9 como voc\u00ea usa.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Ekko",
+    "nameRef": "Ekko",
+    "cardCode": "04PZ001",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04BW005T2",
+      "04BW005T1",
+      "04BW005T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04BW005.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04BW005-full.png"
+    ],
+    "regions": [
+      "bilgewater"
+    ],
+    "attack": 1,
+    "cost": 4,
+    "health": 3,
+    "description": "Quando eu Espreitar, me transforme em Morte das Profundezas.",
+    "levelupDescription": "Pykes aliados causaram 15+ de dano.",
+    "flavorText": "\"... minhas vis\u00f5es voltaram. Vejo o olhar desesperado dele vidrado em mim enquanto o peixe-jaula o dilacera vivo. Tentamos puxar, mas o barco era muito pequeno e a criatura era grande demais. N\u00e3o tive escolha. Tive que cortar a corda dele. N\u00e3o teve jeito.\"\n\u2013 Carta ensanguentada",
+    "artistName": "SIXMOREVODKA",
+    "name": "Pyke",
+    "nameRef": "Pyke",
+    "cardCode": "04BW005",
+    "keywords": [
+      "lurker",
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "lurker"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04IO005T2",
+      "04IO005T1",
+      "04IO005T5",
+      "04IO005T4",
+      "04IO010"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04IO005.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04IO005-full.png"
+    ],
+    "regions": [
+      "ionia"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 2,
+    "description": "Ao me invocar ou In\u00edcio de Rodada: Se tiver o S\u00edmbolo de Ataque, crie 1 Dueto Impec\u00e1vel na m\u00e3o.",
+    "levelupDescription": "14+ aliados atacaram.",
+    "flavorText": "\"Quando estud\u00e1vamos a arte e a beleza, nossos cora\u00e7\u00f5es batiam mais fortes. Mas quando derrubaram nossos muros e nosso sangue, desabamos no solo...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Irelia",
+    "nameRef": "Irelia",
+    "cardCode": "04IO005",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SH019T1",
+      "04SH019T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH019.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH019-full.png"
+    ],
+    "regions": [
+      "shurima"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 6,
+    "description": "Quando eu Espreitar ou Atacar: D\u00ea +1|+0 a aliados Espreitadores globalmente.\r\nFim de Rodada: Me coloque no seu deck.",
+    "levelupDescription": "Eu ataquei com 10+ de Poder.",
+    "flavorText": "\"O jovem Jhuraa estava explorando uma pequena caverna oculta, como j\u00e1 era de costume, quando se deparou com pergaminhos antigos! Levamos os artefatos para um tradutor em Medumarca, e neles... havia textos descrevendo um terror ancestral que perseguia nossos antepassados. Uma rainha. A rainha dos xer'sai!\" \u2013 Fezhaur, anci\u00e3o de Vekaura",
+    "artistName": "SIXMOREVODKA",
+    "name": "Rek'Sai",
+    "nameRef": "RekSai",
+    "cardCode": "04SH019",
+    "keywords": [
+      "lurker"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "lurker"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SH039T1",
+      "04SH039T2",
+      "04SH060T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH039.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH039-full.png"
+    ],
+    "regions": [
+      "shurima"
+    ],
+    "attack": 1,
+    "cost": 2,
+    "health": 4,
+    "description": "Jogar: Crie 4 Bombas-rel\u00f3gio no seu deck. Depois, Preveja.",
+    "levelupDescription": "Eu vi voc\u00ea destruir 2 Bombas-rel\u00f3gio aliadas.",
+    "flavorText": "Ao longo de muitos anos, Zilean criou uma rede de jovens magos promissores de v\u00e1rios tempos, todos capazes de continuar sua obra caso o impens\u00e1vel viesse a acontecer. Apesar de ser um mentor gentil e dedicado, quando buscava a solid\u00e3o, uma profunda sensa\u00e7\u00e3o de cansa\u00e7o e sofrimento reca\u00eda sobre ele. Algo que s\u00f3 quem j\u00e1 viveu muitas vidas seria capaz de entender.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Zilean",
+    "nameRef": "Zilean",
+    "cardCode": "04SH039",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SH073T2",
+      "04SH073T3",
+      "04SH073T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH073.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH073-full.png"
+    ],
+    "regions": [
+      "shurima"
+    ],
+    "attack": 3,
+    "cost": 5,
+    "health": 5,
+    "description": "Jogar: Invoque uma c\u00f3pia id\u00eantica a um Monumento aliado.",
+    "levelupDescription": "Voc\u00ea invocou 5+ Monumentos.",
+    "flavorText": "\"O passo do n\u00f4made \u00e9 sempre leve, pois \u00e9 destitu\u00eddo do peso das ra\u00edzes, e seu lar est\u00e1 sempre al\u00e9m do horizonte.\"\n\u2013 As Sociedades de Shurima",
+    "artistName": "SIXMOREVODKA",
+    "name": "Taliyah",
+    "nameRef": "Taliyah",
+    "cardCode": "04SH073",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SH003T3",
+      "04SH003T2",
+      "04SH003T4",
+      "04SH003T1",
+      "04SH062",
+      "04SH003T14"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH003.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH003-full.png"
+    ],
+    "regions": [
+      "shurima"
+    ],
+    "attack": 1,
+    "cost": 3,
+    "health": 5,
+    "description": "Quando aliados atacarem, invoque 1 Soldado de Areia atacante.",
+    "levelupDescription": "Voc\u00ea invocou 13+ aliados ou Monumentos.",
+    "flavorText": "\"Azir, quando assumiu o manto de imperador de Shurima, era uma pessoa arrogante, cega. Ele acumulou poderes e planejou sua Ascens\u00e3o de forma a governar n\u00e3o apenas Shurima, mas o mundo inteiro.\" \u2013 Escriba Kah'nir, Hist\u00f3ria do Batalh\u00e3o dos Ascendentes",
+    "artistName": "SIXMOREVODKA",
+    "name": "Azir",
+    "nameRef": "Azir",
+    "cardCode": "04SH003",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "ascended"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SH130T2",
+      "04SH130T5",
+      "04SH130T1",
+      "04SH130T10",
+      "04SH003T14",
+      "04SH130T6",
+      "04SH130T13",
+      "04SH130T14",
+      "04SH130T7",
+      "04SH130T8"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH130.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH130-full.png"
+    ],
+    "regions": [
+      "shurima"
+    ],
+    "attack": 2,
+    "cost": 2,
+    "health": 2,
+    "description": "Ao me invocar ou Golpear: Invoque 1 Pal\u00e1cio do Senhor da Guerra ou Avance esse Monumento em 1 rodada.",
+    "levelupDescription": "Pal\u00e1cio do Senhor da Guerra terminou sua Contagem.",
+    "flavorText": "''O c\u00f3digo dos Sentinelas tem muitas restri\u00e7\u00f5es complicadas. Coisas como 'Nunca tire uma vida em nome da vingan\u00e7a' e 'Lute pelo mundo, n\u00e3o por si mesmo'. J\u00e1 eu...''",
+    "artistName": "SIXMOREVODKA",
+    "name": "Akshan",
+    "nameRef": "Akshan",
+    "cardCode": "04SH130",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SH130T6",
+      "04SH130T13",
+      "04SH130T14",
+      "04SH130T7",
+      "04SH130T8",
+      "04SH130T5",
+      "04SH130"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH130T2.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH130T2-full.png"
+    ],
+    "regions": [
+      "shurima"
+    ],
+    "attack": 3,
+    "cost": 2,
+    "health": 3,
+    "description": "Ao me invocar, subir de n\u00edvel, ou Golpear: Invoque 1 Tesouro do Senhor da Guerra ou Avance esse Monumento em 1 rodada.",
+    "levelupDescription": "",
+    "flavorText": "''Meu c\u00f3digo \u00e9 bem mais simples: eu simplesmente ignoro qualquer regra que me impe\u00e7a de fazer o que quero.''",
+    "artistName": "SIXMOREVODKA",
+    "name": "Akshan",
+    "nameRef": "",
+    "cardCode": "04SH130T2",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": false,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SH067T4",
+      "04SH067T1",
+      "04SH067T2",
+      "04SH062",
+      "04SH067T5"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH067.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH067-full.png"
+    ],
+    "regions": [
+      "shurima"
+    ],
+    "attack": 4,
+    "cost": 4,
+    "health": 4,
+    "description": "Quando eu Desafiar um inimigo, me conceda +2|+1 nesta rodada. ",
+    "levelupDescription": "Causei 10+ de dano.",
+    "flavorText": "\"\u00c9 muito f\u00e1cil esquecer que um dia ele j\u00e1 foi humano, pois a imagem crocodiliana lhe cai muito bem, dado o amor pela crueldade da batalha...\" \u2013 Escriba Kah'nir, Hist\u00f3ria do Batalh\u00e3o dos Ascendentes",
+    "artistName": "SIXMOREVODKA",
+    "name": "Renekton",
+    "nameRef": "Renekton",
+    "cardCode": "04SH067",
+    "keywords": [
+      "overwhelm"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "ascended"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SH020T1",
+      "04SH020T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH020.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH020-full.png"
+    ],
+    "regions": [
+      "shurima"
+    ],
+    "attack": 5,
+    "cost": 4,
+    "health": 3,
+    "description": "",
+    "levelupDescription": "Voc\u00ea causou 30+ de dano.",
+    "flavorText": "Sivir navegou pelos caminhos da vida como mercen\u00e1ria, assumindo todos os riscos e recompensas que acompanhavam sua escolha. Por\u00e9m, quando uma fat\u00eddica expedi\u00e7\u00e3o quase lhe custou tudo, o sangue que deixava seu corpo se encarregou de acordar um poder ancestral que elevaria tanto ela quanto Shurima \u00e0 gl\u00f3ria.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Sivir",
+    "nameRef": "Sivir",
+    "cardCode": "04SH020",
+    "keywords": [
+      "quickstrike",
+      "spellshield"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SH047T3",
+      "04SH047T2",
+      "04SH047T1",
+      "04SH062"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH047.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SH047-full.png"
+    ],
+    "regions": [
+      "shurima"
+    ],
+    "attack": 2,
+    "cost": 6,
+    "health": 2,
+    "description": "Tenho +1|+1 para cada unidade Eliminada por voc\u00ea nesta partida. ",
+    "levelupDescription": "Eu Golpeei causando 10+ de dano.",
+    "flavorText": "\"A nova b\u00ean\u00e7\u00e3o recebida por Nasus permitiu que ele passasse v\u00e1rias vidas estudando e refletindo sobre a natureza da vida e da morte. Mas essa mesma exist\u00eancia prolongada, depois da queda de Shurima, viria a ser sua maldi\u00e7\u00e3o.\" \u2013 Escriba Kah'nir, Hist\u00f3ria do Batalh\u00e3o dos Ascendentes",
+    "artistName": "SIXMOREVODKA",
+    "name": "Nasus",
+    "nameRef": "Nasus",
+    "cardCode": "04SH047",
+    "keywords": [
+      "fearsome"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "ascended"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04FR005T1",
+      "04FR005T2",
+      "04FR007T1",
+      "04FR001",
+      "04FR001T1",
+      "04FR005T4",
+      "04FR009"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04FR005.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04FR005-full.png"
+    ],
+    "regions": [
+      "freljord"
+    ],
+    "attack": 2,
+    "cost": 3,
+    "health": 3,
+    "description": "Ao me invocar, invoque 1 Servo Congelado.",
+    "levelupDescription": "Voc\u00ea invocou 2+ aliados de custo 8+. Quando eu subir de n\u00edvel, crie 1 Observador na m\u00e3o.",
+    "flavorText": "\"Al\u00e9m desses muros, espreitam os Observadores, suspensos nas camadas de gelo, congelados no tempo... Enquanto aguardam, preciso dar in\u00edcio aos meus planos...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Lissandra",
+    "nameRef": "Lissandra",
+    "cardCode": "04FR005",
+    "keywords": [
+      "tough"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04NX005",
+      "04NX004T1",
+      "04NX004T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04NX004.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04NX004-full.png"
+    ],
+    "regions": [
+      "noxus"
+    ],
+    "attack": 5,
+    "cost": 3,
+    "health": 2,
+    "description": "",
+    "levelupDescription": "Eu vi voc\u00ea causar 15+ de dano.",
+    "flavorText": "\"Meus caros, n\u00e3o precisamos brigar entre n\u00f3s. Por enquanto, n\u00e3o tomaremos nenhuma medida dr\u00e1stica. Vamos nos reunir mais uma vez quando nosso emiss\u00e1rio trouxer not\u00edcias. Afinal...\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "LeBlanc",
+    "nameRef": "Leblanc",
+    "cardCode": "04NX004",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SI005T4",
+      "04SI005T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SI005.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SI005-full.png"
+    ],
+    "regions": [
+      "shadowisles"
+    ],
+    "attack": 4,
+    "cost": 4,
+    "health": 3,
+    "description": "A cada rodada, na primeira vez que voc\u00ea Eliminar uma unidade, eu marco o inimigo Mais Fraco. \r\nFim de Rodada: Abata as unidades que eu marquei.",
+    "levelupDescription": "Eu vi voc\u00ea Eliminar 2 unidades marcadas por mim.",
+    "flavorText": "Era uma vez um solit\u00e1rio\nQue se partiu pela metade\nDepois de dividido, sentiu-se renascido\nTamanha a felicidade.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Kindred",
+    "nameRef": "Kindred",
+    "cardCode": "04SI005",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SI055T2",
+      "04SI055T1",
+      "04SI045"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SI055.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SI055-full.png"
+    ],
+    "regions": [
+      "shadowisles"
+    ],
+    "attack": 5,
+    "cost": 5,
+    "health": 4,
+    "description": "A cada rodada, na primeira vez que um aliado morrer, invoque 1 N\u00e9voa Invasora.",
+    "levelupDescription": "Vi aliados com 20+ de Poder total morrerem.",
+    "flavorText": "''Tem algo de muito intrigante na hist\u00f3ria do jovem rei. Algo em seu cora\u00e7\u00e3o... uma fome que n\u00e3o pode ser saciada, um desejo imposs\u00edvel de ser realizado.'' \u2013 Dos registros de Nunyo Necrit de Camavor",
+    "artistName": "SIXMOREVODKA",
+    "name": "Viego",
+    "nameRef": "Viego",
+    "cardCode": "04SI055",
+    "keywords": [
+      "fearsome"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04SI055",
+      "04SI055T1",
+      "04SI045"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SI055T2.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04SI055T2-full.png"
+    ],
+    "regions": [
+      "shadowisles"
+    ],
+    "attack": 6,
+    "cost": 5,
+    "health": 5,
+    "description": "A cada rodada, na primeira vez que uma unidade morrer, invoque 1 N\u00e9voa Invasora.\r\nIn\u00edcio de Rodada: roube o inimigo Mais Forte nesta rodada. Se ele for um Campe\u00e3o, abata-o.",
+    "levelupDescription": "",
+    "flavorText": "\"Refletindo agora, \u00e9 claro, para mim, que nem a morte de Isolde ou a \u00e2nsia por grandeza causaram os del\u00edrios de Viego, foi s\u00f3 porque algo que ele desejava profundamente lhe fora negado.\" \u2013 Dos registros de Nunyo Necrit de Camavor",
+    "artistName": "SIXMOREVODKA",
+    "name": "Viego",
+    "nameRef": "",
+    "cardCode": "04SI055T2",
+    "keywords": [
+      "fearsome"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": false,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04MT008T1",
+      "04MT008T5",
+      "04MT008T6",
+      "04MT008T4"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04MT008.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04MT008-full.png"
+    ],
+    "regions": [
+      "targon"
+    ],
+    "attack": 6,
+    "cost": 7,
+    "health": 10,
+    "description": "Jogar: Atordoe um inimigo.",
+    "levelupDescription": "Voc\u00ea invocou Monumentos equivalentes a 10+ de Mana. Quando eu subir de n\u00edvel, caso voc\u00ea esteja com o S\u00edmbolo de Ataque, crie 1 For\u00e7a Incontrol\u00e1vel na m\u00e3o.",
+    "flavorText": "\"\u00daltima palada do tour em T\u00e1gon! \u00c9 o PAPAI! Ele \u00e9 o MAIOR gigante de T\u00e1gon e canta uma musiquinha bem legal. S\u00f3 n\u00e3o tenta subir nele que sen\u00e3o d\u00e1 cosquinha, e se ele fizer um ATCHIM quando voc\u00ea tiver subindo, vai cair!\"\n\u2013 Aventuras com Lasquinha, parte 6",
+    "artistName": "SIXMOREVODKA",
+    "name": "Malphite",
+    "nameRef": "Malphite",
+    "cardCode": "04MT008",
+    "keywords": [
+      "tough"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "04DE008T2",
+      "04DE008T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04DE008.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set4/pt_br/img/cards/04DE008-full.png"
+    ],
+    "regions": [
+      "demacia"
+    ],
+    "attack": 6,
+    "cost": 6,
+    "health": 4,
+    "description": "Ao atacar, pague meu custo para me invocar Desafiando o inimigo Mais Forte.",
+    "levelupDescription": "Aliados sobreviveram a 3+ Golpes de bloqueadores inimigos.",
+    "flavorText": "Os noxianos sabiam em que local o pr\u00edncipe Jarvan faria sua ca\u00e7ada e quantos demacianos o acompanhariam, al\u00e9m de estarem cientes de que a honra do jovem n\u00e3o o permitiria fugir de um confronto. Com tudo isso, a armadilha estava pronta.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Jarvan IV",
+    "nameRef": "JarvanIV",
+    "cardCode": "04DE008",
+    "keywords": [
+      "barrier"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "elite"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set4",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05BC058T5",
+      "05BC058T3",
+      "05BC058T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC058.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC058-full.png"
+    ],
+    "regions": [
+      "bandlecity",
+      "ionia"
+    ],
+    "attack": 2,
+    "cost": 1,
+    "health": 1,
+    "description": "Ao me invocar, crie 1 Marca da Tormenta na m\u00e3o.",
+    "levelupDescription": "Voc\u00ea invocou o mesmo aliado 5+ vezes nesta partida.",
+    "flavorText": "Kennen tamb\u00e9m tinha ouvido o rugido de alguma coisa... oculta. N\u00e3o importava se era humano ou monstro \u2014 os Kinkou protegeriam suas terras a qualquer custo.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Kennen",
+    "nameRef": "Kennen",
+    "cardCode": "05BC058",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05BC202",
+      "05BC133T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC133.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC133-full.png"
+    ],
+    "regions": [
+      "bandlecity"
+    ],
+    "attack": 1,
+    "cost": 3,
+    "health": 3,
+    "description": "Eu tenho +1|+0 para cada aliado multirregional que voc\u00ea conjurou nesta partida.\r\nAo invocar um aliado multirregional, d\u00ea +1|+0 a ele.",
+    "levelupDescription": "Voc\u00ea invocou 4+ aliados multirregionais.",
+    "flavorText": "\"Plano A: a gente explode a entrada e come\u00e7a a atirar. Se isso n\u00e3o funcionar, vamos pro plano B: a gente explode a sa\u00edda e continua atirando. A\u00ed a gente se re\u00fane e vai pro plano C, que \u00e9 basicamente o plano A de novo...\"",
+    "artistName": "Dao Le",
+    "name": "Tristana",
+    "nameRef": "Tristana",
+    "cardCode": "05BC133",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05BC029T5",
+      "05BC029T6"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC029.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC029-full.png"
+    ],
+    "regions": [
+      "bandlecity",
+      "targon"
+    ],
+    "attack": 2,
+    "cost": 3,
+    "health": 2,
+    "description": "In\u00edcio de Rodada: D\u00ea +1|+1 \u00e0 unidade que estou Conectada. Se n\u00e3o houver uma, eu ganho +1|+1.",
+    "levelupDescription": "Eu ou a unidade a que estou Conectada atacamos 3+ vezes.",
+    "flavorText": "Yuumi tinha que confessar que, apesar de todo o rebuli\u00e7o, gostava bastante do Livro. Gostava do cheiro dele. Gostava das ilustra\u00e7\u00f5es. Ela gostava at\u00e9 de atravessar os portais dele...! Mas nada era t\u00e3o bom quanto ter Norra s\u00e3 e salva em casa.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Yuumi",
+    "nameRef": "Yuumi",
+    "cardCode": "05BC029",
+    "keywords": [
+      "attach"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "fae"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05BC166",
+      "05BC161T2",
+      "05BC161T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC161.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC161-full.png"
+    ],
+    "regions": [
+      "bandlecity",
+      "freljord"
+    ],
+    "attack": 3,
+    "cost": 4,
+    "health": 3,
+    "description": "Golpear: Crie 1 Graveto Pontudo na m\u00e3o ou reduza o custo em 1 se j\u00e1 tiver uma c\u00f3pia.",
+    "levelupDescription": "Fim de Rodada: Voc\u00ea causou dano ao Nexus inimigo nesta rodada.",
+    "flavorText": "H\u00e1 muito tempo, Gnar e sua esp\u00e9cie prosperavam no Vale Nakotak. Era um lugar inocente, intocado pelas comodidades modernas. \u00c9 uma pena que o passar do tempo tirou-o de Gnar, mas que bom que o tempo n\u00e3o funciona como o esperado em Band\u00f3polis.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Gnar",
+    "nameRef": "Gnar",
+    "cardCode": "05BC161",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05BC093T2",
+      "05BC093T1",
+      "05SI029"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC093.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC093-full.png"
+    ],
+    "regions": [
+      "bandlecity",
+      "shadowisles"
+    ],
+    "attack": 1,
+    "cost": 4,
+    "health": 4,
+    "description": "Ao me invocar, crie 1 Escurid\u00e3o na m\u00e3o se n\u00e3o tiver. In\u00edcio de Rodada: D\u00ea 1 de dano adicional \u00e0s suas c\u00f3pias de Escurid\u00e3o globalmente.",
+    "levelupDescription": "Voc\u00ea causou 12+ de dano com Escurid\u00e3o.",
+    "flavorText": "\"Este mundo ter\u00e1 medo de mim, carregar\u00e1 por toda a eternidade as cicatrizes que eu infligir e sucumbir\u00e1 perante a for\u00e7a do meu poder. Todos tremer\u00e3o sob a sombra da minha magnitude!\"\n\u2013 Trecho do Cap. 1 de \"Como ser um supervil\u00e3o\", escrito por Lorde Veigar",
+    "artistName": "SIXMOREVODKA",
+    "name": "Veigar",
+    "nameRef": "Veigar",
+    "cardCode": "05BC093",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05BC088T2",
+      "05BC088T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC088.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC088-full.png"
+    ],
+    "regions": [
+      "bandlecity",
+      "noxus"
+    ],
+    "attack": 5,
+    "cost": 4,
+    "health": 4,
+    "description": "Jogar: Descarte at\u00e9 3 cartas para dar aos aliados Rumbles globalmente Impacto para o primeiro, Ataque R\u00e1pido para o segundo e Escudo de Feiti\u00e7o para o terceiro.",
+    "levelupDescription": "Vi Mechs Yordles aliados causarem 12+ de dano.",
+    "flavorText": "\"Eeeeee isso deve dar.\"\n\"ERRO.\"\n\"O QU\u00ca?! Mas eu acabei de consertar!\"\n\"FALHA DE SISTEMA IMINENTE.\"\n\"Desliga. DESLIGA LOGO!\"\n\u2013 Rumble e Tristy",
+    "artistName": "SIXMOREVODKA",
+    "name": "Rumble",
+    "nameRef": "Rumble",
+    "cardCode": "05BC088",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "mechayordle",
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05BC163T4",
+      "05BC163T3",
+      "05BC163T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC163.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC163-full.png"
+    ],
+    "regions": [
+      "bandlecity",
+      "shurima"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 4,
+    "description": "Atacar: Eu causo 1 de dano ao meu bloqueador e ao Nexus inimigo.",
+    "levelupDescription": "Voc\u00ea destruiu 4+ Monumentos aliados nesta partida.",
+    "flavorText": "\"A gente PRECISA causar uma boa impress\u00e3o. O novo inspetor de seguran\u00e7a vai passar aqui, e voc\u00ea sabe muito bem o que isso significa!\"\n\"Chega de explos\u00f5es?\"\n\"QU\u00ca?! N\u00e3o! A gente s\u00f3 precisa explodir as coisas sem ele ver! 'Chega de explos\u00f5es'... Enlouqueceu?!\" \u2013 Ziggs e Otto",
+    "artistName": "SIXMOREVODKA",
+    "name": "Ziggs",
+    "nameRef": "Ziggs",
+    "cardCode": "05BC163",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05BC041T3",
+      "05BC041T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC041.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BC041-full.png"
+    ],
+    "regions": [
+      "bandlecity",
+      "demacia"
+    ],
+    "attack": 2,
+    "cost": 4,
+    "health": 3,
+    "description": "Atacar: D\u00ea +1|+1 a todos os aliados com Poder igual ou menor que o meu.",
+    "levelupDescription": "Eu ataquei com aliados 3 vezes.",
+    "flavorText": "A humildade \u00e9 uma virtude do hero\u00edsmo, mas muitos historiadores concordam que a Poppy passa um pouco dos limites.",
+    "artistName": "Dao Le",
+    "name": "Poppy",
+    "nameRef": "Poppy",
+    "cardCode": "05BC041",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "yordle"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05FR013T4",
+      "05FR010",
+      "05FR010T2",
+      "05FR010T1",
+      "05FR010T3",
+      "05FR010T4",
+      "05FR013T5"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05FR013.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05FR013-full.png"
+    ],
+    "regions": [
+      "freljord"
+    ],
+    "attack": 5,
+    "cost": 5,
+    "health": 4,
+    "description": "Ao me invocar ou Golpear: Crie 1 Troca de Postura na m\u00e3o ou, se j\u00e1 tiver, reduza o custo a 0.",
+    "levelupDescription": "Voc\u00ea jogou Troca de Postura 3+ vezes nesta partida.",
+    "flavorText": "\"Os Esp\u00edritos moldam o mundo assim como n\u00f3s e o mundo moldamos os Esp\u00edritos. Ao extrair o poder deles, tiramos poder do nosso \u00e2mago.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Udyr",
+    "nameRef": "Udyr",
+    "cardCode": "05FR013",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05IO004T1",
+      "05IO004T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05IO004.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05IO004-full.png"
+    ],
+    "regions": [
+      "ionia"
+    ],
+    "attack": 2,
+    "cost": 2,
+    "health": 2,
+    "description": "Atacar: Na primeira vez que eu Atacar Golpeando, me troque pelo aliado \u00e0 minha direita e, depois, Retorne-o.",
+    "levelupDescription": "Voc\u00ea Retornou 6+ unidades nesta partida.",
+    "flavorText": "Ela procurava a si mesma nos segredos alheios. Se viu atrav\u00e9s dos olhos de muitos. \u00c0 medida que se aproximava da floresta, pensou: \"Ser\u00e1 que desta vez ser\u00e1 apenas mais uma lente, ou, s\u00f3 desta vez, encontrarei um espelho?\".",
+    "artistName": "SIXMOREVODKA",
+    "name": "Ahri",
+    "nameRef": "Ahri",
+    "cardCode": "05IO004",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05SH014T1",
+      "05SH014T2",
+      "04SH062",
+      "05SH014T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05SH014.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05SH014-full.png"
+    ],
+    "regions": [
+      "shurima"
+    ],
+    "attack": 3,
+    "cost": 4,
+    "health": 4,
+    "description": "Quando um Monumento aliado for destru\u00eddo, cause 1 de dano ao inimigo Mais Fraco. ",
+    "levelupDescription": "Voc\u00ea destruiu 4+ Monumentos aliados nesta partida.",
+    "flavorText": "\"A princ\u00edpio, eram amigos, mas o tempo e a afinidade os tornou irm\u00e3os. Sem sombra de d\u00favidas, Azir jamais teria conquistado tanto sem Xerath ao seu lado.\" \n\u2013 Escriba Kah'nir, Hist\u00f3ria do Batalh\u00e3o dos Ascendentes",
+    "artistName": "SIXMOREVODKA",
+    "name": "Xerath",
+    "nameRef": "Xerath",
+    "cardCode": "05SH014",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [
+      "ascended"
+    ],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05NX001T1",
+      "05NX001T2",
+      "05NX001T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05NX001.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05NX001-full.png"
+    ],
+    "regions": [
+      "noxus"
+    ],
+    "attack": 2,
+    "cost": 7,
+    "health": 6,
+    "description": "Ao me descartar, d\u00ea Sobrepujar ao seu aliado Mais Forte e me coloque no seu deck.\r\nEu tenho +1|+0 para cada carta que voc\u00ea descartou nesta partida (m\u00e1x. de +7|+0).\r\n",
+    "levelupDescription": "Voc\u00ea descartou ou invocou 35+ de Poder.",
+    "flavorText": "Sion teve lampejos de mem\u00f3rias vagas. Legi\u00f5es posicionadas diante dele. Honrarias. Coroas. Guerra. O \u00faltimo suspiro de um rei. O grande vazio. Sangue. Mas eles passaram r\u00e1pido e se foram, como fitas desbotadas ao vento.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Sion",
+    "nameRef": "Sion",
+    "cardCode": "05NX001",
+    "keywords": [
+      "overwhelm"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05BW005T1",
+      "05BW005T2",
+      "05BW006T2",
+      "05BW006T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BW005.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05BW005-full.png"
+    ],
+    "regions": [
+      "bilgewater"
+    ],
+    "attack": 2,
+    "cost": 3,
+    "health": 3,
+    "description": "Ao jogar um feiti\u00e7o, d\u00ea +1|+0 ao outro aliado Mais Fraco que n\u00e3o estiver Im\u00f3vel.",
+    "levelupDescription": "Voc\u00ea ganhou 8+ de Mana de Feiti\u00e7o nesta partida.",
+    "flavorText": "\"J\u00e1 se despediu de todos, jovem Conjuradora?\"\n\"Sim, grande m\u00e3e.\"\n\"Est\u00e1 com medo?\"\n\"... Sim, grande m\u00e3e.\"\n\"Que bom. Ter medo \u00e9 ter cautela. Mas confie em si mesma, como todos n\u00f3s confiamos. Agora v\u00e1. E que as correntezas te protejam.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Nami",
+    "nameRef": "Nami",
+    "cardCode": "05BW005",
+    "keywords": [
+      "attune",
+      "imbue"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05PZ022T1",
+      "05PZ022T2",
+      "05PZ022T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05PZ022.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05PZ022-full.png"
+    ],
+    "regions": [
+      "piltoverzaun"
+    ],
+    "attack": 4,
+    "cost": 4,
+    "health": 4,
+    "description": "Jogar: Eu ganho Ataque R\u00e1pido ou Desafiador.",
+    "levelupDescription": "Voc\u00ea jogou dois feiti\u00e7os com 6+ de custo.  Quando eu subir de n\u00edvel, crie 1 Port\u00e3o Acelerador na m\u00e3o.",
+    "flavorText": "\"Ent\u00e3o, Rosa, como voc\u00ea bem sabe, essa tecnologia Poderomativa promete mudar o mundo.\"\n\"Um trabalho realmente inovador, Jayce. A maneira como esses metalibradores se encaixam um no outro \u00e9 de tirar o f\u00f4lego.\"\n\"\u00c9 mesmo. E foi tudo ideia do Axel! N\u00e9 n\u00e3o, meu chapa?\"\n\"Sabe como \u00e9, n\u00e9, chapa? N\u00e3o gosto de me gabar...\"",
+    "artistName": "Kudos Productions",
+    "name": "Jayce",
+    "nameRef": "Jayce",
+    "cardCode": "05PZ022",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05PZ022T9",
+      "05PZ022T2",
+      "05PZ022T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05PZ022T7.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05PZ022T7-full.png"
+    ],
+    "regions": [
+      "piltoverzaun"
+    ],
+    "attack": 4,
+    "cost": 4,
+    "health": 4,
+    "description": "",
+    "levelupDescription": "Voc\u00ea jogou dois feiti\u00e7os com 6+ de custo.  Quando eu subir de n\u00edvel, crie 1 Port\u00e3o Acelerador na m\u00e3o.",
+    "flavorText": "\"Ent\u00e3o, Rosa, como voc\u00ea bem sabe, essa tecnologia Poderomativa promete mudar o mundo.\"\n\"Um trabalho realmente inovador, Jayce. A maneira como esses metalibradores se encaixam um no outro \u00e9 de tirar o f\u00f4lego.\"\n\"\u00c9 mesmo. E foi tudo ideia do Axel! N\u00e9 n\u00e3o, meu chapa?\"\n\"Sabe como \u00e9, n\u00e9, chapa? N\u00e3o gosto de me gabar...\"",
+    "artistName": "Kudos Productions",
+    "name": "Jayce",
+    "nameRef": "",
+    "cardCode": "05PZ022T7",
+    "keywords": [
+      "challenger"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": false,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05PZ022T8",
+      "05PZ022T2",
+      "05PZ022T3"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05PZ022T6.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05PZ022T6-full.png"
+    ],
+    "regions": [
+      "piltoverzaun"
+    ],
+    "attack": 4,
+    "cost": 4,
+    "health": 4,
+    "description": "",
+    "levelupDescription": "Voc\u00ea jogou dois feiti\u00e7os com 6+ de custo.  Quando eu subir de n\u00edvel, crie 1 Port\u00e3o Acelerador na m\u00e3o.",
+    "flavorText": "\"Ent\u00e3o, Rosa, como voc\u00ea bem sabe, essa tecnologia Poderomativa promete mudar o mundo.\"\n\"Um trabalho realmente inovador, Jayce. A maneira como esses metalibradores se encaixam um no outro \u00e9 de tirar o f\u00f4lego.\"\n\"\u00c9 mesmo. E foi tudo ideia do Axel! N\u00e9 n\u00e3o, meu chapa?\"\n\"Sabe como \u00e9, n\u00e9, chapa? N\u00e3o gosto de me gabar...\"",
+    "artistName": "Kudos Productions",
+    "name": "Jayce",
+    "nameRef": "",
+    "cardCode": "05PZ022T6",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": false,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05PZ008",
+      "05PZ006T1",
+      "05PZ006T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05PZ006.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05PZ006-full.png"
+    ],
+    "regions": [
+      "piltoverzaun"
+    ],
+    "attack": 3,
+    "cost": 3,
+    "health": 3,
+    "description": "Golpear: Plante 2 Bombas de Clar\u00e3o aleatoriamente entre as 8 cartas no topo do deck inimigo.",
+    "levelupDescription": "5 das suas armadilhas foram ativadas.",
+    "flavorText": "Caitlyn sempre foi uma investigadora obstinada e meticulosa, qualidades que a ajudaram a subir rapidamente nos ranques da pol\u00edcia de Piltover. Mas, quando o caso de um certo 'C' caiu em suas m\u00e3os, depois de ter sido abandonado por v\u00e1rios outros oficiais, parecia que Caitlyn finalmente havia encontrado algu\u00e9m \u00e0 sua altura. Quase.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Caitlyn",
+    "nameRef": "Caitlyn",
+    "cardCode": "05PZ006",
+    "keywords": [
+      "quickstrike"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "01DE022",
+      "05SI009T1",
+      "05SI009T2",
+      "05SI029"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05SI009.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05SI009-full.png"
+    ],
+    "regions": [
+      "shadowisles"
+    ],
+    "attack": 4,
+    "cost": 5,
+    "health": 4,
+    "description": "Ao me invocar ou Atacar: Crie 1 Escurid\u00e3o na m\u00e3o se n\u00e3o tiver. Seus feiti\u00e7os de dano e abate passam a ser R\u00e1pidos.",
+    "levelupDescription": "Eu vi voc\u00ea Eliminar 3+ unidades com feiti\u00e7os ou um Lucian aliado morrer.",
+    "flavorText": "\"Juntar-se \u00e0 causa dos Sentinelas significa lutar. Significa perder a si ou aqueles que voc\u00ea ama. Mas, acima de tudo, significa viver. Por voc\u00ea... e por aqueles que voc\u00ea ama.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Senna",
+    "nameRef": "Senna",
+    "cardCode": "05SI009",
+    "keywords": [
+      "quickstrike",
+      "auravisualfakekeyword"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05MT003T1",
+      "05MT003T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05MT003.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05MT003-full.png"
+    ],
+    "regions": [
+      "targon"
+    ],
+    "attack": 3,
+    "cost": 4,
+    "health": 2,
+    "description": "",
+    "levelupDescription": "Voc\u00ea alvejou aliados em 5 rodadas diferentes.",
+    "flavorText": "Este \u00e9 Atreus, que teve sua liberdade roubada pelos pr\u00f3prios Aspectos que venerava. Estas s\u00e3o as chamas da Guerra, que deixaram Atreus com d\u00e1divas que poucos mortais conseguem compreender. Este \u00e9 um homem pronto para lutar e morrer por aqueles que ama.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Pantheon",
+    "nameRef": "Pantheon",
+    "cardCode": "05MT003",
+    "keywords": [
+      "overwhelm",
+      "barrier"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "05DE009T3",
+      "05DE009T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05DE009.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set5/pt_br/img/cards/05DE009-full.png"
+    ],
+    "regions": [
+      "demacia"
+    ],
+    "attack": 0,
+    "cost": 7,
+    "health": 8,
+    "description": "Ao me invocar, d\u00ea +0|+3 aos outros aliados.",
+    "levelupDescription": "Fim de Rodada: Seus aliados t\u00eam 25+ de Vida total.",
+    "flavorText": "Durante muitos anos ap\u00f3s sua cria\u00e7\u00e3o, Galio permaneceu adormecido, inerte, inconsciente. Depois que a magia deu-lhe vida, ele experimentou a emo\u00e7\u00e3o da batalha e descobriu a alegria de estar entre os vivos. Agora, quando dormia, sentia falta dessas maravilhas!",
+    "artistName": "SIXMOREVODKA",
+    "name": "Galio",
+    "nameRef": "Galio",
+    "cardCode": "05DE009",
+    "keywords": [
+      "formidable",
+      "spellshield"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set5",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "06BW006T3",
+      "06BW006T1",
+      "06BW006T2"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set6/pt_br/img/cards/06BW006.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set6/pt_br/img/cards/06BW006-full.png"
+    ],
+    "regions": [
+      "bilgewater"
+    ],
+    "attack": 1,
+    "cost": 4,
+    "health": 6,
+    "description": "Atacar: Fa\u00e7a Surgir 1 Tent\u00e1culo, depois eu ganho Poder equivalente ao seu Tent\u00e1culo Mais Forte nesta rodada.",
+    "levelupDescription": "Eu causei ou vi Tent\u00e1culos causarem 15+ de dano no total.",
+    "flavorText": "O \"Olho de Nagac\u00e1buros\" \u00e9 apenas um nome, mas Illaoi o encara como um desafio de vida, como se sua deusa fosse uma companhia constante e que se chateia com facilidade.",
+    "artistName": "MICHAEL IVAN",
+    "name": "Illaoi",
+    "nameRef": "Illaoi",
+    "cardCode": "06BW006",
+    "keywords": [
+      "overwhelm"
+    ],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set6",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "06NX012T6",
+      "06NX012T3",
+      "06NX012T7",
+      "06NX012T1"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set6/pt_br/img/cards/06NX012.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set6/pt_br/img/cards/06NX012-full.png"
+    ],
+    "regions": [
+      "noxus"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 2,
+    "description": "Atacar: Eu causo 2 de dano ao meu bloqueador. Se ele tiver sido abatido ou removido, eu causo 2 de dano ao Nexus inimigo.\r\n",
+    "levelupDescription": "Eu vi voc\u00ea jogar 6+ feiti\u00e7os R\u00e1pidos, feiti\u00e7os Lentos ou Habilidades.",
+    "flavorText": "H\u00e1 mais de uma d\u00e9cada, Amoline Kiosar fugiu do Conservat\u00f3rio Floricorvus com algo inestim\u00e1vel e incandescente sob seu controle. Os patrulheiros da Corvusflor a procuraram em todos os cantos do imp\u00e9rio, mas nenhuma das pistas levou a Amoline. E assim, anos depois, quando chegaram not\u00edcias de uma garota perdida queimando de raiva nas Montanhas Ferrifarpos ao norte, Fynn Retrick relutantemente juntou suas coisas e foi investigar. Ele achava que n\u00e3o encontraria nada. Como estava errado.",
+    "artistName": "Polar Engine",
+    "name": "Annie",
+    "nameRef": "Annie",
+    "cardCode": "06NX012",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set6",
+    "origin": {
+      "Jhin": false,
+      "Bard": false
+    }
+  },
+  {
+    "associatedCards": [
+      "06RU001T9",
+      "06RU001T3",
+      "06RU001T8",
+      "06RU001T4"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set6/pt_br/img/cards/06RU001.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set6/pt_br/img/cards/06RU001-full.png"
+    ],
+    "regions": [
+      "runeterra"
+    ],
+    "attack": 2,
+    "cost": 4,
+    "health": 5,
+    "description": "Origem: O Protetor Andarilho.\r\nAtacar: Plante 3 Sinos em cartas aleat\u00f3rias do seu deck.",
+    "levelupDescription": "Voc\u00ea aumentou o total dos atributos dos aliados em jogo ou na m\u00e3o em 20+.",
+    "flavorText": "\"Sim, o Velho Gaff j\u00e1 viu muita coisa estranha na vida! A primeira vez foi o pr\u00f3prio Protetor, eu acho. Parecia uma estrela atravessando o c\u00e9u. Foi como se o mundo inteiro tivesse parado por um minuto, e era s\u00f3 eu e ele...\" \u2013 Conto do Velho Gaff, parte 1",
+    "artistName": "Caravan Studio",
+    "name": "Bardo",
+    "nameRef": "Bard",
+    "cardCode": "06RU001",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set6",
+    "origin": {
+      "Jhin": false,
+      "Bard": true
+    }
+  },
+  {
+    "associatedCards": [
+      "06RU002T6",
+      "06RU002T5",
+      "06RU002T4",
+      "06RU002T2",
+      "06RU002T1",
+      "06RU002T13",
+      "06RU002T12"
+    ],
+    "artPath": [
+      "http://dd.b.pvp.net/3_8_0/set6/pt_br/img/cards/06RU002.png"
+    ],
+    "fullArtPath": [
+      "http://dd.b.pvp.net/3_8_0/set6/pt_br/img/cards/06RU002-full.png"
+    ],
+    "regions": [
+      "runeterra"
+    ],
+    "attack": 4,
+    "cost": 4,
+    "health": 4,
+    "description": "Origem: O Virtuoso. \r\nAtacar: Cause 2 de dano a todos os inimigos Atordoados.",
+    "levelupDescription": "Voc\u00ea jogou 12+ feiti\u00e7os R\u00e1pidos, feiti\u00e7os Lentos ou Habilidades.",
+    "flavorText": "\"Prel\u00fadio: Estamos na cidade de Qayanvi, onde um velho mestre convoca um jovem pupilo. A tarefa dele \u00e9 espantar um grupo de vil\u00f5es perversos e recuperar artefatos sagrados roubados. O ator est\u00e1 ansioso, mas ainda n\u00e3o est\u00e1 em posi\u00e7\u00e3o. Por enquanto ele s\u00f3 se prepara, aguardando nas coxias.\"",
+    "artistName": "Alessandro Poli",
+    "name": "Jhin",
+    "nameRef": "Jhin",
+    "cardCode": "06RU002",
+    "keywords": [],
+    "spellSpeed": "",
+    "rarity": "champion",
+    "subtypes": [],
+    "supertype": "champion",
+    "type": "follower",
+    "collectible": true,
+    "set": "set6",
+    "origin": {
+      "Jhin": true,
+      "Bard": false
+    }
+  }
+]
