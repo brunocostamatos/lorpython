@@ -1,1 +1,8 @@
-TUDO FEITO!!!! (EU ACHO)
+BUGS
+
+CRIACAO BARALHO: Ao adicionar uma carta no deck e depois colocar em sair ele mostra "OPção inválida" e printa o deck 
+com o elemento adicionado mas nao cria o deck em sair
+
+
+PERSISTENCIA: Precisa corrigir quando o arquivo txt nao possui 10 elementos (teste[10]) e quando o arquivo possui
+len = 10 mas está vazio("")
