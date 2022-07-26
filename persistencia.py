@@ -19,14 +19,6 @@ class Persistencia:
 
 
 
-    def ler(self):
-        f = open('banco.txt', 'r')
-        infos = f.read()
-        print()
-        print(infos)
-        print()
-        f.close()
-
     def salvar(self):
         f = open('banco.txt', 'w')
         f.write(self.nome+"\n")

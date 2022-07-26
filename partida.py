@@ -13,6 +13,8 @@ class Partida:
         self.nivel = Usuario.getNivel(usuario)
         self.minhasCartas = Usuario.getMinhasCartas(usuario)
         self.meusDecks = Usuario.getMeusDecks(usuario)
+        self.dificuldade = 0
+        self.resultado = 0
     
     def selecionarDeck(self):
         if len(self.meusDecks) > 0:
@@ -21,12 +23,13 @@ class Partida:
                 print((index + 1), "->", value)
             print(0,"-> Sair")
             selecionandoDeck = int(input("Escolha um de seus Decks: "))
+            
             if selecionandoDeck <= len(self.meusDecks) and selecionandoDeck > 0:
                 self.deck = selecionandoDeck
             else:
-                print("")
+                return 0
         else: 
-            print("Você não pode iniciar uma partida sem cadastrar um deck")
+            return 0
 
     def escolherDificuldade(self):
         print("\nDificuldades:\n \n1- Fácil \n2- Normal \n3- Difícil \n0- Sair\n")
@@ -75,7 +78,7 @@ class Partida:
             print("\nOpção inválida.\n")
             self.vencedor = 0
 
-    def incrementarXPUsuario(self): #INSERIR SET EXP USUARIO
+    def incrementarXPUsuario(self):
         if self.vencedor == 1:
             if self.dificuldade == 1:
                 self.exp += 5
@@ -112,4 +115,4 @@ class Partida:
         
     def __str__ (self):
         print("")
-        return "Partida do jogo Legends of Runeterra"
+        return "Partida do jogo LoRPython"

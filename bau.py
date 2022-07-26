@@ -21,7 +21,7 @@ class Bau:
             print("Você tem experiência suficiente, vou sortear as cartas.")
             cartasJson = Persistencia.getCartasJson()
             for i in cartasJson:
-                leituraArquivoCartas.append(cartasJson[i]['name'])
+                leituraArquivoCartas.append(i['name'])
             random.shuffle(leituraArquivoCartas)
             for i in range(5):
                 sorteadas.append(leituraArquivoCartas.pop())

@@ -14,7 +14,7 @@ import os
 existenciaArquivo = Persistencia.verificarExistencia()
 
 
-usuario1= Usuario("Usuario Não Identificado", 0, 0, 0, 1, "Demacia", 0, 1, [],[])
+usuario1= Usuario("Usuario Não Identificado", 100, 0, 0, 1, "Demacia", 0, 1, [],[])
 
 persistencia = Persistencia(usuario1)
 
@@ -60,17 +60,19 @@ while controleError != 1:
                 opcaoPartida = int(input("\nEntre com sua opção: "))
                 while opcaoPartida != 0:
                     if opcaoPartida == 1:
-                        partida.selecionarDeck()
-                        partida.escolherDificuldade()
-                        partida.jogo()
-                        partida.verificarVencedor()
-                        if partida.vencedor == 1:
-                            partida.incrementarXPUsuario()
-                            regiao1.incrementarXPRegiao()
-                            if usuario1.exp >= 100:
-                                partida.avancarNivelUsuario()
-                            if regiao1.expRegiao >= 100:
-                                regiao1.avancarNivelRegiao()
+                        if partida.selecionarDeck() != 0:
+                            partida.escolherDificuldade()
+                            partida.jogo()
+                            partida.verificarVencedor()
+                            if partida.vencedor == 1:
+                                partida.incrementarXPUsuario()
+                                regiao1.incrementarXPRegiao()
+                                if usuario1.exp >= 100:
+                                    partida.avancarNivelUsuario()
+                                if regiao1.expRegiao >= 100:
+                                    regiao1.avancarNivelRegiao()
+                        else:
+                            print("\nVocê não pode iniciar uma partida sem um deck.\n")
                     else:
                         print("\nOpção inválida.\n")
                     menuPartida()
@@ -132,9 +134,7 @@ while controleError != 1:
                 menuPersistencia()
                 opcaoPersistencia = int(input("\nEntre com sua opção: "))
                 while opcaoPersistencia != 0:
-                    if opcaoPersistencia == 1:
-                        persistencia.ler()
-                    elif opcaoPersistencia == 2:
+                    if opcaoPersistencia == 2:
                         persistencia = Persistencia(usuario1)
                         persistencia.salvar()
                     else:

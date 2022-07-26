@@ -35,7 +35,7 @@ class Usuario:
     def setRegiao(self, regiao):
         self.regiao = regiao
     
-    def  setExpRegiao(self, expRegiao):
+    def setExpRegiao(self, expRegiao):
         self.expRegiao = expRegiao
 
     def setNivelRegiao(self, nivelRegiao):

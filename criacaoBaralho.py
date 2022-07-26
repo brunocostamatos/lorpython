@@ -19,7 +19,7 @@ class ForjaDeck:
         print(0,"-> Sair")
         print("")
 
-    def adicionarCarta(self):   #precisa rever para corrigir com o get e set expRegiao e regiao
+    def adicionarCarta(self):
             cartaEscolhida = int(input("Escolha a carta que será adicionada no Deck:"))
             self.cartaEscolhida = cartaEscolhida
             if cartaEscolhida > len(self.naoTenhoCartas) or cartaEscolhida <= 0:
@@ -71,6 +71,6 @@ class ForjaDeck:
             persistencia = Persistencia(self.usuario)
             persistencia.salvar()  
 
-    def __str__ (self): #precisa inserir os sets
+    def __str__ (self):
         print("")
         return "Meu Deck:\t{}\n".format(self.baralho)
