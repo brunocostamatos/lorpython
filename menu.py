@@ -1,20 +1,16 @@
 def menu():
     print("Menu:\n")
     print("1- Usuário")
-    print("2- Testar sistema de Baú")
-    print("3- Partida")
-    print("4- Região")
-    print("5- Forja de Cartas")
-    print("6- Forja de Decks")
-    print("7- Inventário")
-    print("8- Persistência")
+    print("2- Partida")
+    print("3- Região")
+    print("4- Forja de Cartas")
+    print("5- Forja de Decks")
+    print("6- Inventário")
     print("0- Sair")
 
 def menuRegiao():
     print("Menu Região:\n")
     print("1- Alterar Região")
-    print("2- Incrementar XP Região")
-    print("3- Avançar Nível Região")
     print("0- Sair")
 
 def menuForjaCarta():

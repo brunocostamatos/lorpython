@@ -49,13 +49,6 @@ while controleError != 1:
             if opcao == 1:
                 print(usuario1)
             elif opcao == 2:
-                print(bau1)
-                bau1.sortearCartas([])
-                bau1.verificarSorteio()
-                bau1.tranformarSorteio()
-                #bau1.teste(usuario1)
-                print(usuario1)
-            elif opcao == 3:
                 menuPartida()
                 opcaoPartida = int(input("\nEntre com sua opção: "))
                 while opcaoPartida != 0:
@@ -77,7 +70,7 @@ while controleError != 1:
                         print("\nOpção inválida.\n")
                     menuPartida()
                     opcaoPartida = int(input("\nEntre com sua opção: "))
-            elif opcao == 4 :
+            elif opcao == 3 :
                 print(regiao1)
                 menuRegiao()
                 opcaoRegiao = int(input("\nEntre com sua opção: "))
@@ -85,15 +78,11 @@ while controleError != 1:
                     if opcaoRegiao == 1:
                         regiao1.listarRegioes()
                         regiao1.mudarRegiao()
-                    elif opcaoRegiao == 2:
-                        regiao1.incrementarXPRegiao()
-                    elif opcaoRegiao == 3:
-                        regiao1.avancarNivelRegiao()
                     else:
                         print("\nOpção inválida.\n")
                     menuRegiao()
                     opcaoRegiao = int(input("\nEntre com sua opção: "))
-            elif opcao == 5 :
+            elif opcao == 4 :
                 print(forjaCarta)
                 menuForjaCarta()
                 opcaoForjaCarta = int(input("\nEntre com sua opção: "))
@@ -106,7 +95,7 @@ while controleError != 1:
                         print("\nOpção inválida.\n")
                     menuForjaCarta()
                     opcaoForjaCarta = int(input("\nEntre com sua opção: "))
-            elif opcao == 6 :
+            elif opcao == 5 :
                 menuForjaDeck()
                 opcaoForjaDeck = int(input("\nEntre com sua opção: "))
                 while opcaoForjaDeck != 0:
@@ -118,7 +107,7 @@ while controleError != 1:
                         print("\nOpção inválida.\n")
                     menuForjaDeck()
                     opcaoForjaDeck = int(input("\nEntre com sua opção: "))
-            elif opcao == 7 :
+            elif opcao == 6 :
                 menuInventario()
                 opcaoInventario = int(input("\nEntre com sua opção: "))
                 while opcaoInventario != 0:
@@ -130,17 +119,6 @@ while controleError != 1:
                         print("\nOpção inválida.\n")
                     menuInventario()
                     opcaoInventario = int(input("\nEntre com sua opção: "))
-            elif opcao == 8:
-                menuPersistencia()
-                opcaoPersistencia = int(input("\nEntre com sua opção: "))
-                while opcaoPersistencia != 0:
-                    if opcaoPersistencia == 2:
-                        persistencia = Persistencia(usuario1)
-                        persistencia.salvar()
-                    else:
-                        print("\nOpção inválida.\n")
-                    menuPersistencia()
-                    opcaoPersistencia = int(input("\nEntre com sua opção: "))
             else:
                 print("\nOpção inválida.\n")
             print(usuario1)
