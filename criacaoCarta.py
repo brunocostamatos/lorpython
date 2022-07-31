@@ -121,6 +121,7 @@ class ForjaCarta:
             persistencia.salvar()
             print(self)
 
+
     def __str__ (self):
         print("")
         return "Pó de Carta:\t{}\nCoringa:\t{}\nMinhas Cartas:\t{}\n".format(Usuario.getQntPo(self.usuario), Usuario.getQntCoringa(self.usuario), Usuario.getMinhasCartas(self.usuario))
