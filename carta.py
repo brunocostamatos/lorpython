@@ -3,12 +3,13 @@ from usuario import Usuario
 class Carta: 
 
     def __init__ (self, usuario):
-        self.nome = Usuario.getNome(usuario)
-        self.minhasCartas = Usuario.getMinhasCartas(usuario)            
+        self.usuario = usuario
+        self.nome = Usuario.getNome(self.usuario)
+        self.minhasCartas = Usuario.getMinhasCartas(self.usuario)            
 
     def verCartas(self):
         print("")
-        for indexP, valueP in enumerate(self.minhasCartas):
+        for indexP, valueP in enumerate(Usuario.getMinhasCartas(self.usuario)):
                     print(valueP)
         print("")
 

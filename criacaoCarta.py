@@ -8,6 +8,7 @@ class ForjaCarta:
         self.qntPo =  Usuario.getQntPo(usuario)
         self.qntCoringa = Usuario.getQntCoringa(usuario)
         self.minhasCartas = Usuario.getMinhasCartas(usuario)
+        self.meusDecks = Usuario.getMeusDecks(usuario)
         self.naoTenhoCartas = []
 
     def listarNaoTenho(self):
@@ -30,6 +31,13 @@ class ForjaCarta:
         else:
             return False
 
+    def verificarCartaBaralho(self, carta):
+        for i in self.meusDecks:
+            for j in i:
+                if j == carta:
+                    return 0
+
+
     def criarCarta(self):
         metodo = ForjaCarta.escolherMetodoCriacao(self)
         ForjaCarta.listarNaoTenho(self)
@@ -51,7 +59,6 @@ class ForjaCarta:
                             print("\nA seguinte carta foi criada usando Pó: {}".format(valueEs))
                             self.minhasCartas.append(valueEs)
                             moeda -= 10
-                    print(moeda)
                     Usuario.setMinhasCartas(self.usuario, self.minhasCartas)
                     Usuario.setQntPo(self.usuario, moeda)
                     persistencia = Persistencia(self.usuario)
@@ -95,7 +102,11 @@ class ForjaCarta:
             if cartaSelecionada != (indexDC + 1):
                 cartasSobreviventes.append(valueDC)
             else:
-                cartaExcluida = valueDC
+                if ForjaCarta.verificarCartaBaralho(self, valueDC) != 0:
+                    cartaExcluida = valueDC
+                else:
+                    print("\nVocê não pode excluir essa carta pois ela está sendo usada em um Baralho.")
+                    cartaSelecionada = 0
         if cartaSelecionada == 0:
             print("")
         elif cartasSobreviventes == self.minhasCartas:
